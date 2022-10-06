@@ -11,7 +11,35 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="View\Images\logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="View\Images\logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
     <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="InicialPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="View\Pages\Vestibulinho.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Model\" />
+    <Folder Include="View\Pages\Cursos\DS\" />
+    <Folder Include="View\Pages\Cursos\ADM\" />
+    <Folder Include="View\Pages\Cursos\MECA\" />
+    <Folder Include="View\Pages\Cursos\EDIF\" />
+    <Folder Include="View\Pages\Cursos\" />
   </ItemGroup>
 </Project>
