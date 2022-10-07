@@ -3,17 +3,26 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App_Guia_Curso_DS.InicialPage"
              Title="Home"
-             BackgroundColor="#FFFFFF">
+             Style="{ StaticResource Fundo_Telas }">
     
     <ContentPage.Content>
         
-        <StackLayout>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="20">
             
-            <Label Text="Welcome to Xamarin.Forms!"
-                   VerticalOptions="CenterAndExpand" 
-                   HorizontalOptions="CenterAndExpand"
-                   TextColor="#000000"/>
-            
+            <Label Text="Vestibulinho:"
+                   HorizontalTextAlignment="Center"
+                   FontAttributes="Bold"
+                   TextColor="#FFFFFF"/>
+
+            <Button x:Name="btn_vestibulinho" Text="Abrir" Clicked="btn_vestibulinho_Clicked"/>
+
+            <Label Text="Meios de Contato:"
+                   HorizontalTextAlignment="Center"
+                   FontAttributes="Bold"
+                   TextColor="#FFFFFF"/>
+
+            <Button x:Name="btn_meios_contato" Text="Abrir" Clicked="btn_meios_contato_Clicked"/>
+
         </StackLayout>
         
     </ContentPage.Content>

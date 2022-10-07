@@ -12,10 +12,10 @@ namespace App_Guia_Curso_DS.View.Pages
 
     [XamlCompilation(XamlCompilationOptions.Compile)]
 
-    public partial class Vestibulinho : ContentPage
+    public partial class Modulo_3 : ContentPage
     {
 
-        public Vestibulinho()
+        public Modulo_3()
         {
 
             InitializeComponent();

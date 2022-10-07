@@ -11,6 +11,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="View\Pages\Cursos\**" />
+    <EmbeddedResource Remove="View\Pages\Cursos\**" />
+    <None Remove="View\Pages\Cursos\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="View\Images\logo.png" />
   </ItemGroup>
 
@@ -29,17 +35,20 @@
     <EmbeddedResource Update="InicialPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="View\Pages\Meios_Contato.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="View\Pages\Modulo_1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="View\Pages\Modulo_2.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="View\Pages\Modulo_3.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="View\Pages\Vestibulinho.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Model\" />
-    <Folder Include="View\Pages\Cursos\DS\" />
-    <Folder Include="View\Pages\Cursos\ADM\" />
-    <Folder Include="View\Pages\Cursos\MECA\" />
-    <Folder Include="View\Pages\Cursos\EDIF\" />
-    <Folder Include="View\Pages\Cursos\" />
   </ItemGroup>
 </Project>

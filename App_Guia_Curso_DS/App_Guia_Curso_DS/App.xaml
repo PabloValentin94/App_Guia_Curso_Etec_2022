@@ -5,7 +5,11 @@
     
     <Application.Resources>
 
-        
+        <Style x:Key="Fundo_Telas" TargetType="Page">
+
+            <Setter Property="BackgroundColor" Value="#000000"/>
+
+        </Style>
 
     </Application.Resources>
     

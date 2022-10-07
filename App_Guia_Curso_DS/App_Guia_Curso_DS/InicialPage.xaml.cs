@@ -22,6 +22,20 @@ namespace App_Guia_Curso_DS
 
         }
 
+        private void btn_vestibulinho_Clicked(object sender, EventArgs e)
+        {
+
+            Navigation.PushAsync(new View.Pages.Vestibulinho());
+
+        }
+
+        private void btn_meios_contato_Clicked(object sender, EventArgs e)
+        {
+
+            Navigation.PushAsync(new View.Pages.Meios_Contato());
+
+        }
+
     }
 
 }

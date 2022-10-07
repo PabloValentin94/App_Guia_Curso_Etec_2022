@@ -6,6 +6,8 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
+using App_Guia_Curso_DS.View.Pages;
+
 namespace App_Guia_Curso_DS
 {
 
@@ -26,21 +28,21 @@ namespace App_Guia_Curso_DS
         private void btn_ds_1_Clicked(object sender, EventArgs e)
         {
 
-
+            Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(Modulo_1)));
 
         }
 
         private void btn_ds_2_Clicked(object sender, EventArgs e)
         {
 
-
+            Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(Modulo_2)));
 
         }
 
         private void btn_ds_3_Clicked(object sender, EventArgs e)
         {
 
-
+            Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(Modulo_3)));
 
         }
 
