@@ -4,11 +4,13 @@
                   x:Class="App_Guia_Curso_DS.MainPage">
 
     <!-- No Master, faremos a estrutura do "Menu Sanduíche", e no Detail,
-         as informações que irão aparecer após a troca de páginas.  -->
+         as página que irá aparecer por trás do menu.  -->
+    
+    <!-- Parte destinada ao menu. -->
 
     <MasterDetailPage.Master>
         
-        <!-- É necessário definir um título na ContentPage, pois ele substituirá, no iOS, o símbolo de menu. -->
+        <!-- É obrigatório definir um título na ContentPage, pois ele substituirá, no iOS, o símbolo do menu. -->
 
         <ContentPage Title="Menu">
 
@@ -29,6 +31,9 @@
                                Margin="0,15,0,0"/>
 
                     </StackLayout>
+                    
+                    <!-- Adicionando uma ScrollView, para, que, caso o conteúdo do menu não caiba totalmente na tela,
+                         o usuário tenha a opção de rolá-lo para baixo. -->
 
                     <ScrollView Grid.Row="1">
 
@@ -123,6 +128,8 @@
         </ContentPage>
 
     </MasterDetailPage.Master>
+    
+    <!-- Parte destinada à página de fundo. -->
 
     <MasterDetailPage.Detail>
 
