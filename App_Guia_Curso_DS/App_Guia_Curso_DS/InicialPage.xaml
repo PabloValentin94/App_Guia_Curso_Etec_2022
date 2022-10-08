@@ -2,29 +2,81 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App_Guia_Curso_DS.InicialPage"
-             Title="Home"
+             Title="Tela Inicial"
              Style="{ StaticResource Fundo_Telas }">
     
     <ContentPage.Content>
-        
-        <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="20">
-            
-            <Label Text="Vestibulinho:"
-                   HorizontalTextAlignment="Center"
-                   FontAttributes="Bold"
-                   TextColor="#FFFFFF"/>
 
-            <Button x:Name="btn_vestibulinho" Text="Abrir" Clicked="btn_vestibulinho_Clicked"/>
+        <ScrollView>
 
-            <Label Text="Meios de Contato:"
-                   HorizontalTextAlignment="Center"
-                   FontAttributes="Bold"
-                   TextColor="#FFFFFF"/>
+            <StackLayout Padding="15" Spacing="20">
 
-            <Button x:Name="btn_meios_contato" Text="Abrir" Clicked="btn_meios_contato_Clicked"/>
+                <Label Text="Informações Recentes:"
+                       Grid.Row="0"
+                       Style="{ StaticResource Titulo }"/>
 
-        </StackLayout>
-        
+                <Frame HeightRequest="500" CornerRadius="10" Style="{ StaticResource Cor_Frame }">
+
+                    <StackLayout Spacing="10">
+
+                        <Image x:Name="img_hallowtec" VerticalOptions="FillAndExpand" Aspect="Fill"/>
+
+                    </StackLayout>
+
+                </Frame>
+
+                <Label Text="Sobre a Escola:"
+                       Style="{ StaticResource Titulo }"/>
+
+                <Frame CornerRadius="10" Style="{ StaticResource Cor_Frame }">
+
+                    <StackLayout Spacing="10">
+
+                        <Label x:Name="lbl_sobre_unidade"
+                               HorizontalTextAlignment="Start"
+                               Style="{ StaticResource Texto }"/>
+
+                    </StackLayout>
+
+                </Frame>
+
+                <Label Text="Localização:"
+                       Style="{ StaticResource Titulo }"/>
+
+                <Frame CornerRadius="10" Style="{ StaticResource Cor_Frame }">
+
+                    <StackLayout Spacing="10">
+
+                        <Label x:Name="lbl_endereco"
+                               HorizontalTextAlignment="Start"
+                               Style="{ StaticResource Texto }"/>
+
+                    </StackLayout>
+                    
+                </Frame>
+
+                <Label Text="Vestibulinho:" Style="{ StaticResource Titulo }"/>
+
+                <Button Text="Abrir Página"
+                        BackgroundColor="#E11C23"
+                        BorderWidth="5"
+                        BorderColor="#FFFFFF"
+                        Style="{ StaticResource Botao }"
+                        Clicked="btn_vestibulinho_Clicked"/>
+
+                <Label Text="Fale Conosco:" Style="{ StaticResource Titulo }"/>
+
+                <Button Text="Abrir Página"
+                        BackgroundColor="#E11C23"
+                        BorderWidth="5"
+                        BorderColor="#FFFFFF"
+                        Style="{ StaticResource Botao }"
+                        Clicked="btn_meios_contato_Clicked"/>
+
+            </StackLayout>
+
+        </ScrollView>
+
     </ContentPage.Content>
     
 </ContentPage>

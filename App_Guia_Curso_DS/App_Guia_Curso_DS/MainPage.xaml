@@ -12,11 +12,11 @@
         
         <!-- É obrigatório definir um título na ContentPage, pois ele substituirá, no iOS, o símbolo do menu. -->
 
-        <ContentPage Title="Menu">
+        <ContentPage Title="Menu" Style="{ StaticResource Fundo_Telas }">
 
             <ContentPage.Content>
 
-                <Grid BackgroundColor="#000000">
+                <Grid>
 
                     <Grid.RowDefinitions>
 
@@ -27,7 +27,7 @@
 
                     <StackLayout Grid.Row="0" Margin="10" BackgroundColor="#FFFFFF" HorizontalOptions="FillAndExpand">
 
-                        <Image x:Name="img_logo" Aspect="AspectFill" VerticalOptions="FillAndExpand"
+                        <Image x:Name="img_logo" Aspect="Fill" VerticalOptions="FillAndExpand"
                                Margin="0,15,0,0"/>
 
                     </StackLayout>
@@ -37,43 +37,48 @@
 
                     <ScrollView Grid.Row="1">
 
-                        <StackLayout>
+                        <StackLayout Margin="0,0,0,15">
 
                             <StackLayout x:Name="DS" Padding="10" Spacing="15" HorizontalOptions="FillAndExpand">
 
                                 <Label Text="Desenvolvimento de Sistemas:" FontSize="Medium"
                                        TextColor="#FFFFFF" FontAttributes="Bold"/>
 
-                                <Button x:Name="btn_ds_1" Text="1º MÓDULO" TextColor="#FFFFFF" FontAttributes="Bold"
-                                        BorderRadius="100" BackgroundColor="#FF0000"
+                                <Button x:Name="btn_ds_1" Text="1º Módulo"
+                                        BackgroundColor="#EE1C23"
+                                        Style="{ StaticResource Botao }"
                                         Clicked="btn_ds_1_Clicked"/>
 
-                                <Button x:Name="btn_ds_2" Text="2º MÓDULO" TextColor="#FFFFFF" FontAttributes="Bold"
-                                        BorderRadius="100" BackgroundColor="#FF0000"
+                                <Button x:Name="btn_ds_2" Text="2º Módulo"
+                                        BackgroundColor="#EE1C23"
+                                        Style="{ StaticResource Botao }"
                                         Clicked="btn_ds_2_Clicked"/>
 
-                                <Button x:Name="btn_ds_3" Text="3º MÓDULO" TextColor="#FFFFFF" FontAttributes="Bold"
-                                        BorderRadius="100" BackgroundColor="#FF0000"
+                                <Button x:Name="btn_ds_3" Text="3º Módulo"
+                                        BackgroundColor="#EE1C23"
+                                        Style="{ StaticResource Botao }"
                                         Clicked="btn_ds_3_Clicked"/>
 
                             </StackLayout>
 
-                            <!--
                             <StackLayout x:Name="ADM" Padding="10" Spacing="15" HorizontalOptions="FillAndExpand">
 
                                 <Label Text="Administração:" FontSize="Medium"
                                        TextColor="#FFFFFF" FontAttributes="Bold"/>
 
-                                <Button x:Name="btn_adm_1" Text="1º MÓDULO" TextColor="#FFFFFF" FontAttributes="Bold"
-                                        BorderRadius="100" BackgroundColor="#FF0000"
+                                <Button x:Name="btn_adm_1" Text="1º Módulo" 
+                                        BackgroundColor="#EE1C23"
+                                        Style="{ StaticResource Botao }"
                                         Clicked="btn_adm_1_Clicked"/>
 
-                                <Button x:Name="btn_adm_2" Text="2º MÓDULO" TextColor="#FFFFFF" FontAttributes="Bold"
-                                        BorderRadius="100" BackgroundColor="#FF0000"
+                                <Button x:Name="btn_adm_2" Text="2º Módulo"
+                                        BackgroundColor="#EE1C23"
+                                        Style="{ StaticResource Botao }"
                                         Clicked="btn_adm_2_Clicked"/>
 
-                                <Button x:Name="btn_adm_3" Text="3º MÓDULO" TextColor="#FFFFFF" FontAttributes="Bold"
-                                        BorderRadius="100" BackgroundColor="#FF0000"
+                                <Button x:Name="btn_adm_3" Text="3º Módulo"
+                                        BackgroundColor="#EE1C23"
+                                        Style="{ StaticResource Botao }"
                                         Clicked="btn_adm_3_Clicked"/>
 
                             </StackLayout>
@@ -83,16 +88,19 @@
                                 <Label Text="Mecatrônica:" FontSize="Medium"
                                        TextColor="#FFFFFF" FontAttributes="Bold"/>
 
-                                <Button x:Name="btn_meca_1" Text="1º MÓDULO" TextColor="#FFFFFF" FontAttributes="Bold"
-                                        BorderRadius="100" BackgroundColor="#FF0000"
+                                <Button x:Name="btn_meca_1" Text="1º Módulo"
+                                        BackgroundColor="#EE1C23"
+                                        Style="{ StaticResource Botao }"
                                         Clicked="btn_meca_1_Clicked"/>
 
-                                <Button x:Name="btn_meca_2" Text="2º MÓDULO" TextColor="#FFFFFF" FontAttributes="Bold"
-                                        BorderRadius="100" BackgroundColor="#FF0000"
+                                <Button x:Name="btn_meca_2" Text="2º Módulo" 
+                                        BackgroundColor="#EE1C23"
+                                        Style="{ StaticResource Botao }"
                                         Clicked="btn_meca_2_Clicked"/>
 
-                                <Button x:Name="btn_meca_3" Text="3º MÓDULO" TextColor="#FFFFFF" FontAttributes="Bold"
-                                        BorderRadius="100" BackgroundColor="#FF0000"
+                                <Button x:Name="btn_meca_3" Text="3º Módulo"
+                                        BackgroundColor="#EE1C23"
+                                        Style="{ StaticResource Botao }"
                                         Clicked="btn_meca_3_Clicked"/>
 
                             </StackLayout>
@@ -102,20 +110,22 @@
                                 <Label Text="Edificações:" FontSize="Medium"
                                        TextColor="#FFFFFF" FontAttributes="Bold"/>
 
-                                <Button x:Name="btn_edif_1" Text="1º MÓDULO" TextColor="#FFFFFF" FontAttributes="Bold"
-                                        BorderRadius="100" BackgroundColor="#FF0000"
+                                <Button x:Name="btn_edif_1" Text="1º Módulo"
+                                        BackgroundColor="#EE1C23"
+                                        Style="{ StaticResource Botao }"
                                         Clicked="btn_edif_1_Clicked"/>
 
-                                <Button x:Name="btn_edif_2" Text="2º MÓDULO" TextColor="#FFFFFF" FontAttributes="Bold"
-                                        BorderRadius="100" BackgroundColor="#FF0000"
+                                <Button x:Name="btn_edif_2" Text="2º Módulo"
+                                        BackgroundColor="#EE1C23"
+                                        Style="{ StaticResource Botao }"
                                         Clicked="btn_edif_2_Clicked"/>
 
-                                <Button x:Name="btn_edif_3" Text="3º MÓDULO" TextColor="#FFFFFF" FontAttributes="Bold"
-                                        BorderRadius="100" BackgroundColor="#FF0000"
+                                <Button x:Name="btn_edif_3" Text="3º Módulo"
+                                        BackgroundColor="#EE1C23"
+                                        Style="{ StaticResource Botao }"
                                         Clicked="btn_edif_3_Clicked"/>
 
                             </StackLayout>
-                            -->
 
                         </StackLayout>
 

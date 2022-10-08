@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
+
 <resources>
 
   <style name="MainTheme" parent="MainTheme.Base">
+	  
     <!-- As of Xamarin.Forms 4.6 the theme has moved into the Forms binary -->
     <!-- If you want to override anything you can do that here. -->
     <!-- Underneath are a couple of entries to get you started. -->
@@ -14,5 +16,20 @@
     <!-- colorAccent is used as the default value for colorControlActivated
          which is used to tint widgets -->
     <!--<item name="colorAccent">#FF4081</item>-->
+
+	  <!-- Definindo a cor padrão para elementos do Xamarin.Forms, por exemplo, DatePickers, TimePickers, Entrys, etc. -->
+
+	  <item name="colorAccent">#EE1C23</item>
+
+	  <!-- Definindo a cor da barra de navegação da aplicação. -->
+
+	  <item name="colorPrimary">#363636</item>
+
+	  <!-- Definindo a cor da barra de status (onde aparece a hora, informações da bateria, wi-fi, etc.) da aplicação.
+	       Existe uma outra forma de defini-lá. Veja o trecho de código comentado no arquivo "MainActivity.cs". -->
+
+	  <item name="colorPrimaryDark">#000000</item>
+	  
   </style>
+	
 </resources>

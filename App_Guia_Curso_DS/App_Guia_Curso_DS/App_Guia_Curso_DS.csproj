@@ -17,10 +17,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="View\Images\hallowtec.png" />
     <None Remove="View\Images\logo.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="View\Images\hallowtec.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\Images\logo.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>

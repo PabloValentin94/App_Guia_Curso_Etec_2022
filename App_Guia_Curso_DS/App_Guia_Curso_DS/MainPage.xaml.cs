@@ -75,7 +75,6 @@ namespace App_Guia_Curso_DS
 
         }
 
-        /*
         private void btn_adm_1_Clicked(object sender, EventArgs e)
         {
 
@@ -138,7 +137,6 @@ namespace App_Guia_Curso_DS
 
 
         }
-        */
 
     }
 

@@ -3,11 +3,64 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App_Guia_Curso_DS.App">
     
+    <!-- Estilos, são ferramentas criadas pelo desenvolvedor, com o objetivo de reaproveitar um determinado código,
+         evitando assim, repetições desnecessárias. -->
+    
     <Application.Resources>
 
         <Style x:Name="Tema_App" x:Key="Fundo_Telas" TargetType="Page">
 
             <Setter Property="BackgroundColor" Value="#000000"/>
+
+        </Style>
+
+        <Style x:Key="Cor_Texto" TargetType="Label">
+
+            <Setter Property="TextColor" Value="#FFFFFF"/>
+
+        </Style>
+
+        <Style x:Key="Cor_Frame" TargetType="Frame">
+
+            <Setter Property="BackgroundColor" Value="#363636"/>
+
+        </Style>
+
+        <Style x:Key="Fonte_Personalizada" TargetType="Label">
+
+            <Setter Property="FontFamily">
+
+                <Setter.Value>
+
+                    <OnPlatform x:TypeArguments="x:String"
+                                iOS="PestaTahunBaru.ttf"
+                                Android="PestaTahunBaru.ttf#PestaTahunBaru"/>
+
+                </Setter.Value>
+                
+            </Setter>
+            
+        </Style>
+
+        <Style x:Key="Titulo" TargetType="Label" BaseResourceKey="Fonte_Personalizada">
+
+            <Setter Property="FontSize" Value="45"/>
+            <Setter Property="TextColor" Value="#E11C23"/>
+            <Setter Property="FontAttributes" Value="Bold"/>
+            <Setter Property="HorizontalTextAlignment" Value="Center"/>
+
+        </Style>
+
+        <Style x:Key="Texto" TargetType="Label" BaseResourceKey="Cor_Texto">
+
+            <Setter Property="FontSize" Value="Medium"/>
+
+        </Style>
+
+        <Style x:Key="Botao" TargetType="Button" BaseResourceKey="Cor_Texto">
+
+            <Setter Property="FontAttributes" Value="Bold"/>
+            <Setter Property="BorderRadius" Value="100"/>
 
         </Style>
 
