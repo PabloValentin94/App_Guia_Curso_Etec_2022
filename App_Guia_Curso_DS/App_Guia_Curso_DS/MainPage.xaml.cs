@@ -6,9 +6,9 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
-using App_Guia_Curso_DS.View.Pages;
+using App_Guia_Curso_Etec.View.Pages;
 
-namespace App_Guia_Curso_DS
+namespace App_Guia_Curso_Etec
 {
 
     public partial class MainPage : MasterDetailPage
@@ -21,7 +21,7 @@ namespace App_Guia_Curso_DS
 
             // Definindo a imagem que aparecerá no menu.
 
-            img_logo.Source = ImageSource.FromResource("App_Guia_Curso_DS.View.Images.logo.png");
+            img_logo.Source = ImageSource.FromResource("App_Guia_Curso_Etec.View.Images.logo.png");
 
             /* Detail: propriedade de uma MasterDetailPage. No contexto, do método construtor, a estamos usando para específicar qual será
              * a página que deverá ser acionada como página inicial (é tipo um Navigation.PushAsync(), só que da MasterDetailPage.). */

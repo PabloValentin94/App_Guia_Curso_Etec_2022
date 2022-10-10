@@ -2,7 +2,7 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace App_Guia_Curso_DS
+namespace App_Guia_Curso_Etec
 {
 
     public partial class App : Application

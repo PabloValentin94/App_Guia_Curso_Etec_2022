@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace App_Guia_Curso_DS
+namespace App_Guia_Curso_Etec
 {
 
     [XamlCompilation(XamlCompilationOptions.Compile)]
@@ -27,7 +27,7 @@ namespace App_Guia_Curso_DS
                                      "Técnico (DEET) da Secretaria de Ciência, Tecnologia e Desenvolvimento Econômico. " +
                                      "Foi incorporada ao Centro Paula Souza em 1994.";
 
-            img_hallowtec.Source = ImageSource.FromResource("App_Guia_Curso_DS.View.Images.hallowtec.png");
+            img_hallowtec.Source = ImageSource.FromResource("App_Guia_Curso_Etec.View.Images.hallowtec.png");
 
             lbl_endereco.Text = "País: Brasil.\nEstado: São Paulo (S.P.).\nCidade: Jaú.\nRua: Humaitá.\nNº: 1090 - Centro.\nCEP: 17.201-320";
 

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace App_Guia_Curso_DS.View.Pages
+namespace App_Guia_Curso_Etec.View.Pages
 {
 
     [XamlCompilation(XamlCompilationOptions.Compile)]

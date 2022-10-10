@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App_Guia_Curso_DS.Android", "App_Guia_Curso_DS\App_Guia_Curso_DS.Android\App_Guia_Curso_DS.Android.csproj", "{99E06A5C-41ED-4E15-B474-B7FFACCA5E96}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App_Guia_Curso_Etec.Android", "App_Guia_Curso_DS\App_Guia_Curso_DS.Android\App_Guia_Curso_Etec.Android.csproj", "{99E06A5C-41ED-4E15-B474-B7FFACCA5E96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App_Guia_Curso_DS", "App_Guia_Curso_DS\App_Guia_Curso_DS\App_Guia_Curso_DS.csproj", "{440E857E-85CB-499C-810D-C60019DDE7F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App_Guia_Curso_Etec", "App_Guia_Curso_DS\App_Guia_Curso_DS\App_Guia_Curso_Etec.csproj", "{440E857E-85CB-499C-810D-C60019DDE7F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

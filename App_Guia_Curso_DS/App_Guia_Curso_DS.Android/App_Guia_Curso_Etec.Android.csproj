@@ -88,9 +88,9 @@
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\App_Guia_Curso_DS\App_Guia_Curso_DS.csproj">
-      <Project>{BF9326F2-DEFF-46EF-8B6A-959AB6C27DE1}</Project>
-      <Name>App_Guia_Curso_DS</Name>
+    <ProjectReference Include="..\App_Guia_Curso_DS\App_Guia_Curso_Etec.csproj">
+      <Project>{440E857E-85CB-499C-810D-C60019DDE7F1}</Project>
+      <Name>App_Guia_Curso_Etec</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

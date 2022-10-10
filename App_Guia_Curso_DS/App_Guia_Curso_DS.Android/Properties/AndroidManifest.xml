@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.app_guia_curso_ds">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.App_Guia_Curso_Etec">
     <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="31" />
-    <application android:label="App_Guia_Curso_DS.Android" android:theme="@style/MainTheme"></application>
+    <application android:label="App_Guia_Curso_Etec.Android" android:theme="@style/MainTheme"></application>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 </manifest>
