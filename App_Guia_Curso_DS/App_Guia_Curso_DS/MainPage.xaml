@@ -12,7 +12,7 @@
         
         <!-- É obrigatório definir um título na ContentPage, pois ele substituirá, no iOS, o símbolo do menu. -->
 
-        <ContentPage Title="Menu" Style="{ StaticResource Fundo_Telas }">
+        <ContentPage Title="Menu" Style="{ StaticResource Tema_Principal }">
 
             <ContentPage.Content>
 
@@ -38,6 +38,22 @@
                     <ScrollView Grid.Row="1">
 
                         <StackLayout Margin="0,0,0,15">
+
+                            <StackLayout x:Name="home" Padding="10" Spacing="15" HorizontalOptions="FillAndExpand">
+
+                                <Label Text="Página Inicial:" FontSize="Large"
+                                       TextColor="#FFFF00" FontAttributes="Bold"/>
+
+                                <Button x:Name="btn_home" Text="Início"
+                                        BackgroundColor="#EE1C23"
+                                        Style="{ StaticResource Botao }"
+                                        Clicked="btn_home_Clicked"/>
+
+                            </StackLayout>
+
+                            <Label Text="Cursos:" FontSize="Large"
+                                   TextColor="#FFFF00" FontAttributes="Bold"
+                                   Padding="10,0,10,0"/>
 
                             <StackLayout x:Name="DS" Padding="10" Spacing="15" HorizontalOptions="FillAndExpand">
 

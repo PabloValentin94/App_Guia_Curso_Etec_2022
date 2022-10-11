@@ -7,15 +7,15 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace App_Guia_Curso_Etec.View.Pages
+namespace App_Guia_Curso_Etec.View.Pages.Cursos.DS
 {
 
     [XamlCompilation(XamlCompilationOptions.Compile)]
 
-    public partial class Modulo_1 : ContentPage
+    public partial class DS_Modulo_3 : ContentPage
     {
 
-        public Modulo_1()
+        public DS_Modulo_3()
         {
 
             InitializeComponent();

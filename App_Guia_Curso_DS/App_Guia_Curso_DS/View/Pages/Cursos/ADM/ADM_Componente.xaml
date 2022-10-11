@@ -1,16 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="App_Guia_Curso_Etec.View.Pages.Modulo_2"
-             Style="{ StaticResource Fundo_Telas }">
+             x:Class="App_Guia_Curso_Etec.View.Pages.Cursos.ADM.ADM_Componente"
+             Style="{ StaticResource Tema_ADM }">
     
     <ContentPage.Content>
-
-        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-
-            <Label Text="Módulo 2!"
-                   TextColor="#FFFFFF"/>
-
+        
+        <StackLayout>
+            
+            
+            
         </StackLayout>
         
     </ContentPage.Content>

@@ -11,12 +11,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="View\Pages\Cursos\**" />
-    <EmbeddedResource Remove="View\Pages\Cursos\**" />
-    <None Remove="View\Pages\Cursos\**" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Remove="View\Images\hallowtec.png" />
     <None Remove="View\Images\logo.png" />
   </ItemGroup>
@@ -36,19 +30,82 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="InicialPage.xaml">
+    <Compile Update="InitialPage.xaml.cs">
+      <DependentUpon>InitialPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="View\Pages\Cursos\ADM\ADM_Modulo_1.xaml.cs">
+      <DependentUpon>ADM_Modulo_1.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="View\Pages\Cursos\DS\DS_Modulo_1.xaml.cs">
+      <DependentUpon>DS_Modulo_1.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="View\Pages\Cursos\DS\DS_Modulo_2.xaml.cs">
+      <DependentUpon>DS_Modulo_2.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="View\Pages\Cursos\DS\DS_Modulo_3.xaml.cs">
+      <DependentUpon>DS_Modulo_3.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="View\Pages\Cursos\EDIF\EDIF_Modulo_1.xaml.cs">
+      <DependentUpon>EDIF_Modulo_1.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="View\Pages\Cursos\EDIF\EDIF_Componente.xaml.cs">
+      <DependentUpon>EDIF_Componente.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="InitialPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="View\Pages\Cursos\ADM\ADM_Componente.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="View\Pages\Cursos\ADM\ADM_Modulo_1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="View\Pages\Cursos\ADM\ADM_Modulo_2.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="View\Pages\Cursos\ADM\ADM_Modulo_3.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="View\Pages\Cursos\DS\DS_Componente.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="View\Pages\Cursos\EDIF\EDIF_Modulo_1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="View\Pages\Cursos\EDIF\EDIF_Modulo_2.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="View\Pages\Cursos\EDIF\EDIF_Modulo_3.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="View\Pages\Cursos\EDIF\EDIF_Componente.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="View\Pages\Cursos\MECA\MECA_Componente.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="View\Pages\Cursos\MECA\MECA_Modulo_1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="View\Pages\Cursos\MECA\MECA_Modulo_2.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="View\Pages\Cursos\MECA\MECA_Modulo_3.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="View\Pages\Meios_Contato.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="View\Pages\Modulo_1.xaml">
+    <EmbeddedResource Update="View\Pages\Cursos\DS\DS_Modulo_1.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="View\Pages\Modulo_2.xaml">
+    <EmbeddedResource Update="View\Pages\Cursos\DS\DS_Modulo_2.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="View\Pages\Modulo_3.xaml">
+    <EmbeddedResource Update="View\Pages\Cursos\DS\DS_Modulo_3.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="View\Pages\Vestibulinho.xaml">

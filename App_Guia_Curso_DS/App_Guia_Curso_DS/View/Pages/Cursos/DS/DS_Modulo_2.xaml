@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App_Guia_Curso_Etec.View.Pages.Cursos.DS.DS_Modulo_2"
+             Style="{ StaticResource Tema_DS }">
+    
+    <ContentPage.Content>
+
+        <StackLayout Margin="15" VerticalOptions="Center">
+
+            <Label Text="Segundo Módulo:"
+                   TextColor="#FFFFFF"
+                   Style="{ StaticResource Titulo }"/>
+
+            <ScrollView Margin="0,30,0,0">
+
+                <StackLayout Spacing="20">
+
+                    <Button x:Name="btn_ban_dad_02" Text="Banco de Dados II"
+                            Style="{ StaticResource Botao_Modulos }"
+                            Clicked="btn_ban_dad_02_Clicked"/>
+
+                    <Button x:Name="btn_des_sis" Text="Desenvolvimento de Sistemas"
+                            Style="{ StaticResource Botao_Modulos }"
+                            Clicked="btn_des_sis_Clicked"/>
+
+                    <Button x:Name="btn_pro_mob_01" Text="Programação de Aplicativos Mobile I"
+                            Style="{ StaticResource Botao_Modulos }"
+                            Clicked="btn_pro_mob_01_Clicked"/>
+
+                    <Button x:Name="btn_pro_web_02" Text="Programação Web II"
+                            Style="{ StaticResource Botao_Modulos }"
+                            Clicked="btn_pro_web_02_Clicked"/>
+
+                    <Button x:Name="btn_sis_emb" Text="Sistemas Embarcados"
+                            Style="{ StaticResource Botao_Modulos }"
+                            Clicked="btn_sis_emb_Clicked"/>
+
+                </StackLayout>
+
+            </ScrollView>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+    
+</ContentPage>

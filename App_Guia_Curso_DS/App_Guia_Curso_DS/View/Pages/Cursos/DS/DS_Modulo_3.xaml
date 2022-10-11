@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App_Guia_Curso_Etec.View.Pages.Cursos.DS.DS_Modulo_3"
+             Style="{ StaticResource Tema_DS }">
+    
+    <ContentPage.Content>
+
+        <StackLayout Margin="15" VerticalOptions="Center">
+
+            <Label Text="Terceiro Módulo:"
+                   TextColor="#FFFFFF"
+                   Style="{ StaticResource Titulo }"/>
+
+            <ScrollView Margin="0,30,0,0">
+
+                <StackLayout Spacing="20">
+
+                    <Button x:Name="btn_sis_inf"
+                            Text="Internet, Protocolos e Segurança de Sistemas da Informação"
+                            Style="{ StaticResource Botao_Modulos }"/>
+
+                    <Button x:Name="btn_pla_des_tcc_ds"
+                            Text="Planejamento e Desenvolvimento do Trabalho de Conclusão de Curso (T.C.C.) 
+                            em Desenvolvimento de Sistemas"
+                            Style="{ StaticResource Botao_Modulos }"/>
+
+                    <Button x:Name="btn_pro_mob_02" Text="Programação de Aplicativos Mobile II"
+                            Style="{ StaticResource Botao_Modulos }"/>
+
+                    <Button x:Name="btn_pro_web_03" Text="Programação Web III"
+                            Style="{ StaticResource Botao_Modulos }"/>
+
+                    <Button x:Name="btn_qua_tes_sof" Text="Qualidade e Teste de Software"
+                            Style="{ StaticResource Botao_Modulos }"/>
+
+                </StackLayout>
+
+            </ScrollView>
+
+        </StackLayout>
+        
+    </ContentPage.Content>
+    
+</ContentPage>

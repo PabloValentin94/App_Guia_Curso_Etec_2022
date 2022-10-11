@@ -12,10 +12,10 @@ namespace App_Guia_Curso_Etec
 
     [XamlCompilation(XamlCompilationOptions.Compile)]
 
-    public partial class InicialPage : ContentPage
+    public partial class InitialPage : ContentPage
     {
 
-        public InicialPage()
+        public InitialPage()
         {
 
             InitializeComponent();
@@ -29,21 +29,46 @@ namespace App_Guia_Curso_Etec
 
             img_hallowtec.Source = ImageSource.FromResource("App_Guia_Curso_Etec.View.Images.hallowtec.png");
 
-            lbl_endereco.Text = "País: Brasil.\nEstado: São Paulo (S.P.).\nCidade: Jaú.\nRua: Humaitá.\nNº: 1090 - Centro.\nCEP: 17.201-320";
+            lbl_endereco.Text = "País: Brasil.\n\nEstado: São Paulo (S.P.).\n\nCidade: Jaú.\n\n" +
+                                "Rua: Humaitá.\n\nNº: 1090 - Centro.\n\nCEP: 17.201-320";
 
         }
 
         private void btn_vestibulinho_Clicked(object sender, EventArgs e)
         {
 
-            Navigation.PushAsync(new View.Pages.Vestibulinho());
+            try
+            {
+
+                Navigation.PushAsync(new View.Pages.Vestibulinho());
+
+            }
+
+            catch(Exception ex)
+            {
+
+                DisplayAlert("Erro!", ex.Message, "OK");
+
+            }
 
         }
 
         private void btn_meios_contato_Clicked(object sender, EventArgs e)
         {
 
-            Navigation.PushAsync(new View.Pages.Meios_Contato());
+            try
+            {
+
+                Navigation.PushAsync(new View.Pages.Meios_Contato());
+
+            }
+
+            catch(Exception ex)
+            {
+
+                DisplayAlert("Erro!", ex.Message, "OK");
+
+            }
 
         }
 

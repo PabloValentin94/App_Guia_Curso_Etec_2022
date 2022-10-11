@@ -7,15 +7,15 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace App_Guia_Curso_Etec.View.Pages
+namespace App_Guia_Curso_Etec.View.Pages.Cursos.EDIF
 {
 
     [XamlCompilation(XamlCompilationOptions.Compile)]
 
-    public partial class Modulo_2 : ContentPage
+    public partial class EDIF_Modulo_1 : ContentPage
     {
 
-        public Modulo_2()
+        public EDIF_Modulo_1()
         {
 
             InitializeComponent();

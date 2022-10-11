@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="App_Guia_Curso_Etec.InicialPage"
+             x:Class="App_Guia_Curso_Etec.InitialPage"
              Title="Tela Inicial"
-             Style="{ StaticResource Fundo_Telas }">
+             Style="{ StaticResource Tema_Principal }">
     
     <ContentPage.Content>
 
@@ -13,6 +13,7 @@
 
                 <Label Text="Informações Recentes:"
                        Grid.Row="0"
+                       TextColor="#E11C23"
                        Style="{ StaticResource Titulo }"/>
 
                 <Frame HeightRequest="500" CornerRadius="10" Style="{ StaticResource Cor_Frame }">
@@ -26,6 +27,7 @@
                 </Frame>
 
                 <Label Text="Sobre a Escola:"
+                       TextColor="#E11C23"
                        Style="{ StaticResource Titulo }"/>
 
                 <Frame CornerRadius="10" Style="{ StaticResource Cor_Frame }">
@@ -41,6 +43,7 @@
                 </Frame>
 
                 <Label Text="Localização:"
+                       TextColor="#E11C23"
                        Style="{ StaticResource Titulo }"/>
 
                 <Frame CornerRadius="10" Style="{ StaticResource Cor_Frame }">
@@ -55,20 +58,22 @@
                     
                 </Frame>
 
-                <Label Text="Vestibulinho:" Style="{ StaticResource Titulo }"/>
+                <Label Text="Vestibulinho:"
+                       TextColor="#E11C23"
+                       Style="{ StaticResource Titulo }"/>
 
                 <Button Text="Abrir Página"
                         BackgroundColor="#E11C23"
-                        BorderWidth="5"
                         BorderColor="#FFFFFF"
                         Style="{ StaticResource Botao }"
                         Clicked="btn_vestibulinho_Clicked"/>
 
-                <Label Text="Fale Conosco:" Style="{ StaticResource Titulo }"/>
+                <Label Text="Fale Conosco:"
+                       TextColor="#E11C23"
+                       Style="{ StaticResource Titulo }"/>
 
                 <Button Text="Abrir Página"
                         BackgroundColor="#E11C23"
-                        BorderWidth="5"
                         BorderColor="#FFFFFF"
                         Style="{ StaticResource Botao }"
                         Clicked="btn_meios_contato_Clicked"/>
