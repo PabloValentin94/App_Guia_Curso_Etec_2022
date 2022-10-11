@@ -35,7 +35,6 @@
                     <StackLayout Spacing="10">
 
                         <Label x:Name="lbl_sobre_unidade"
-                               HorizontalTextAlignment="Start"
                                Style="{ StaticResource Texto }"/>
 
                     </StackLayout>
@@ -51,7 +50,6 @@
                     <StackLayout Spacing="10">
 
                         <Label x:Name="lbl_endereco"
-                               HorizontalTextAlignment="Start"
                                Style="{ StaticResource Texto }"/>
 
                     </StackLayout>

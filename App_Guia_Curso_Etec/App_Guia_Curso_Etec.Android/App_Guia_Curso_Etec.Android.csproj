@@ -88,7 +88,7 @@
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\App_Guia_Curso_DS\App_Guia_Curso_Etec.csproj">
+    <ProjectReference Include="..\App_Guia_Curso_Etec\App_Guia_Curso_Etec.csproj">
       <Project>{440E857E-85CB-499C-810D-C60019DDE7F1}</Project>
       <Name>App_Guia_Curso_Etec</Name>
     </ProjectReference>

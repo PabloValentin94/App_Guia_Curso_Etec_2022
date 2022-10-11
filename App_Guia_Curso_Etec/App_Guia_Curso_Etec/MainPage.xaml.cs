@@ -49,7 +49,7 @@ namespace App_Guia_Curso_Etec
 
         }
 
-        private void btn_home_Clicked(object sender, EventArgs e)
+        private async void btn_home_Clicked(object sender, EventArgs e)
         {
 
             try
@@ -70,13 +70,13 @@ namespace App_Guia_Curso_Etec
             catch (Exception ex)
             {
 
-                DisplayAlert("Erro!", ex.Message, "OK");
+                await DisplayAlert("Erro!", ex.Message, "OK");
 
             }
 
         }
 
-        private void btn_ds_1_Clicked(object sender, EventArgs e)
+        private async void btn_ds_1_Clicked(object sender, EventArgs e)
         {
 
             try
@@ -97,13 +97,13 @@ namespace App_Guia_Curso_Etec
             catch (Exception ex)
             {
 
-                DisplayAlert("Erro!", ex.Message, "OK");
+                await DisplayAlert("Erro!", ex.Message, "OK");
 
             }
 
         }
 
-        private void btn_ds_2_Clicked(object sender, EventArgs e)
+        private async void btn_ds_2_Clicked(object sender, EventArgs e)
         {
 
             try
@@ -124,13 +124,13 @@ namespace App_Guia_Curso_Etec
             catch (Exception ex)
             {
 
-                DisplayAlert("Erro!", ex.Message, "OK");
+                await DisplayAlert("Erro!", ex.Message, "OK");
 
             }
 
         }
 
-        private void btn_ds_3_Clicked(object sender, EventArgs e)
+        private async void btn_ds_3_Clicked(object sender, EventArgs e)
         {
 
             try
@@ -151,13 +151,13 @@ namespace App_Guia_Curso_Etec
             catch (Exception ex)
             {
 
-                DisplayAlert("Erro!", ex.Message, "OK");
+                await DisplayAlert("Erro!", ex.Message, "OK");
 
             }
 
         }
 
-        private void btn_adm_1_Clicked(object sender, EventArgs e)
+        private async void btn_adm_1_Clicked(object sender, EventArgs e)
         {
 
             try
@@ -178,13 +178,13 @@ namespace App_Guia_Curso_Etec
             catch (Exception ex)
             {
 
-                DisplayAlert("Erro!", ex.Message, "OK");
+                await DisplayAlert("Erro!", ex.Message, "OK");
 
             }
 
         }
 
-        private void btn_adm_2_Clicked(object sender, EventArgs e)
+        private async void btn_adm_2_Clicked(object sender, EventArgs e)
         {
 
             try
@@ -205,13 +205,13 @@ namespace App_Guia_Curso_Etec
             catch (Exception ex)
             {
 
-                DisplayAlert("Erro!", ex.Message, "OK");
+                await DisplayAlert("Erro!", ex.Message, "OK");
 
             }
 
         }
 
-        private void btn_adm_3_Clicked(object sender, EventArgs e)
+        private async void btn_adm_3_Clicked(object sender, EventArgs e)
         {
 
             try
@@ -232,13 +232,13 @@ namespace App_Guia_Curso_Etec
             catch (Exception ex)
             {
 
-                DisplayAlert("Erro!", ex.Message, "OK");
+                await DisplayAlert("Erro!", ex.Message, "OK");
 
             }
 
         }
 
-        private void btn_meca_1_Clicked(object sender, EventArgs e)
+        private async void btn_meca_1_Clicked(object sender, EventArgs e)
         {
 
             try
@@ -259,13 +259,13 @@ namespace App_Guia_Curso_Etec
             catch (Exception ex)
             {
 
-                DisplayAlert("Erro!", ex.Message, "OK");
+                await DisplayAlert("Erro!", ex.Message, "OK");
 
             }
 
         }
 
-        private void btn_meca_2_Clicked(object sender, EventArgs e)
+        private async void btn_meca_2_Clicked(object sender, EventArgs e)
         {
 
             try
@@ -286,13 +286,13 @@ namespace App_Guia_Curso_Etec
             catch (Exception ex)
             {
 
-                DisplayAlert("Erro!", ex.Message, "OK");
+                await DisplayAlert("Erro!", ex.Message, "OK");
 
             }
 
         }
 
-        private void btn_meca_3_Clicked(object sender, EventArgs e)
+        private async void btn_meca_3_Clicked(object sender, EventArgs e)
         {
 
             try
@@ -313,13 +313,13 @@ namespace App_Guia_Curso_Etec
             catch (Exception ex)
             {
 
-                DisplayAlert("Erro!", ex.Message, "OK");
+                await DisplayAlert("Erro!", ex.Message, "OK");
 
             }
 
         }
 
-        private void btn_edif_1_Clicked(object sender, EventArgs e)
+        private async void btn_edif_1_Clicked(object sender, EventArgs e)
         {
 
             try
@@ -340,13 +340,13 @@ namespace App_Guia_Curso_Etec
             catch (Exception ex)
             {
 
-                DisplayAlert("Erro!", ex.Message, "OK");
+                await DisplayAlert("Erro!", ex.Message, "OK");
 
             }
 
         }
 
-        private void btn_edif_2_Clicked(object sender, EventArgs e)
+        private async void btn_edif_2_Clicked(object sender, EventArgs e)
         {
 
             try
@@ -367,13 +367,13 @@ namespace App_Guia_Curso_Etec
             catch (Exception ex)
             {
 
-                DisplayAlert("Erro!", ex.Message, "OK");
+                await DisplayAlert("Erro!", ex.Message, "OK");
 
             }
 
         }
 
-        private void btn_edif_3_Clicked(object sender, EventArgs e)
+        private async void btn_edif_3_Clicked(object sender, EventArgs e)
         {
 
             try
@@ -394,7 +394,7 @@ namespace App_Guia_Curso_Etec
             catch (Exception ex)
             {
 
-                DisplayAlert("Erro!", ex.Message, "OK");
+                await DisplayAlert("Erro!", ex.Message, "OK");
 
             }
 

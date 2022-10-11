@@ -84,6 +84,22 @@
 
         <Style x:Key="Tema_EDIF" TargetType="Page" BaseResourceKey="Tema_Principal">
 
+            <Setter Property="Background">
+
+                <Setter.Value>
+
+                    <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
+
+                        <GradientStop Color="#000000" Offset="0.0"/>
+                        <GradientStop Color="#FFA500" Offset="0.6"/>
+                        <GradientStop Color="#FFFFFF" Offset="0.9"/>
+
+                    </LinearGradientBrush>
+                    
+                </Setter.Value>
+                
+            </Setter>
+
             <Setter Property="Title" Value="Edificações"/>
 
         </Style>
@@ -124,9 +140,18 @@
 
         </Style>
 
+        <Style x:Key="Subtitulo" TargetType="Label" BaseResourceKey="Fonte_Personalizada">
+
+            <Setter Property="FontSize" Value="28"/>
+            <Setter Property="FontAttributes" Value="Bold"/>
+            <Setter Property="HorizontalTextAlignment" Value="Start"/>
+
+        </Style>
+
         <Style x:Key="Texto" TargetType="Label" BaseResourceKey="Cor_Texto">
 
             <Setter Property="FontSize" Value="Medium"/>
+            <Setter Property="HorizontalTextAlignment" Value="Start"/>
 
         </Style>
 

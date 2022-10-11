@@ -34,7 +34,7 @@ namespace App_Guia_Curso_Etec
 
         }
 
-        private void btn_vestibulinho_Clicked(object sender, EventArgs e)
+        private async void btn_vestibulinho_Clicked(object sender, EventArgs e)
         {
 
             try
@@ -47,13 +47,13 @@ namespace App_Guia_Curso_Etec
             catch(Exception ex)
             {
 
-                DisplayAlert("Erro!", ex.Message, "OK");
+                await DisplayAlert("Erro!", ex.Message, "OK");
 
             }
 
         }
 
-        private void btn_meios_contato_Clicked(object sender, EventArgs e)
+        private async void btn_meios_contato_Clicked(object sender, EventArgs e)
         {
 
             try
@@ -66,7 +66,7 @@ namespace App_Guia_Curso_Etec
             catch(Exception ex)
             {
 
-                DisplayAlert("Erro!", ex.Message, "OK");
+                await DisplayAlert("Erro!", ex.Message, "OK");
 
             }
 
