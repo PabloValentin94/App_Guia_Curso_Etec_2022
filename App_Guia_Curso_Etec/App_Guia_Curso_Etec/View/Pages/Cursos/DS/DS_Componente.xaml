@@ -51,6 +51,7 @@
                                    Padding="5"/>
 
                             <Label Text="{ Binding Atribuicoes_Responsabilidades }"
+                                   LineBreakMode="CharacterWrap"
                                    TextColor="#FFFFFF"
                                    FontSize="20"
                                    HorizontalTextAlignment="Start"

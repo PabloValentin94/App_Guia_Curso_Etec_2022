@@ -7,13 +7,74 @@
     
     <ContentPage.Content>
 
-        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        <StackLayout VerticalOptions="Center">
 
-            <Label Text="Meios de Contato"
-                   TextColor="#FFFFFF"/>
+            <ScrollView>
+
+                <StackLayout Spacing="20" Padding="20">
+
+                    <Label Text="Meios de Contato:"
+                           TextColor="#E11C23"
+                           Style="{ StaticResource Titulo }"/>
+
+                    <Grid RowSpacing="20" ColumnSpacing="10">
+
+                        <Grid.ColumnDefinitions>
+
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="*"/>
+
+                        </Grid.ColumnDefinitions>
+
+                        <Grid.RowDefinitions>
+
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+
+                        </Grid.RowDefinitions>
+
+                        <ImageButton x:Name="imgbtn_facebook" Aspect="AspectFill"
+                                     Grid.Column="0" Grid.Row="0"
+                                     Clicked="imgbtn_facebook_Clicked"/>
+
+                        <Label x:Name="lbl_facebook"
+                               VerticalTextAlignment="Center"
+                               Grid.Column="1" Grid.Row="0"
+                               Style="{ StaticResource Texto }"/>
+
+                        <ImageButton x:Name="imgbtn_instagram" Aspect="AspectFill"
+                                     Grid.Column="0" Grid.Row="1"
+                                     Clicked="imgbtn_instagram_Clicked"/>
+
+                        <Label x:Name="lbl_instagram"
+                               VerticalTextAlignment="Center"
+                               Grid.Column="1" Grid.Row="1"
+                               Style="{ StaticResource Texto }"/>
+
+                        <ImageButton x:Name="imgbtn_site" Aspect="AspectFill"
+                                     Grid.Column="0" Grid.Row="2"
+                                     Clicked="imgbtn_site_Clicked"/>
+
+                        <Label x:Name="lbl_site"
+                               VerticalTextAlignment="Center"
+                               Grid.Column="1" Grid.Row="2"
+                               Style="{ StaticResource Texto }"/>
+
+                    </Grid>
+
+                    <Label Text="☝ Para facilitar, clique nos ícones."
+                           TextColor="#FFFFFF"
+                           FontSize="25"
+                           HorizontalTextAlignment="Center"
+                           Margin="0,10,0,0"/>
+
+                </StackLayout>
+
+            </ScrollView>
 
         </StackLayout>
-        
+
     </ContentPage.Content>
     
 </ContentPage>

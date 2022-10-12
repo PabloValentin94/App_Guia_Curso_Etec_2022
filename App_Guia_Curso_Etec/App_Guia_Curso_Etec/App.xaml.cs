@@ -2,6 +2,9 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+using System.Globalization; // Biblioteca que possui a propriedade CultureInfo.
+using System.Threading; // Biblioteca que possui a propriedade Thread.
+
 namespace App_Guia_Curso_Etec
 {
 
@@ -12,6 +15,10 @@ namespace App_Guia_Curso_Etec
         {
 
             InitializeComponent();
+
+            // Deixando os elementos da aplicação (datas, horas, números, etc.) no padrão brasileiro.
+
+            Thread.CurrentThread.CurrentCulture = new CultureInfo("pt-br");
 
             MainPage = new MainPage();
 

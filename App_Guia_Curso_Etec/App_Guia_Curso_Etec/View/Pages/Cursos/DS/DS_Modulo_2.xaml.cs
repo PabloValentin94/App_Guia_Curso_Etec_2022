@@ -47,7 +47,7 @@ namespace App_Guia_Curso_Etec.View.Pages.Cursos.DS
 
                 pagina.BindingContext = dados;
 
-                Navigation.PushAsync(pagina);
+                await Navigation.PushAsync(pagina);
 
             }
 
@@ -85,7 +85,7 @@ namespace App_Guia_Curso_Etec.View.Pages.Cursos.DS
 
                 pagina.BindingContext = dados;
 
-                Navigation.PushAsync(pagina);
+                await Navigation.PushAsync(pagina);
 
             }
 
@@ -121,7 +121,7 @@ namespace App_Guia_Curso_Etec.View.Pages.Cursos.DS
 
                 pagina.BindingContext = dados;
 
-                Navigation.PushAsync(pagina);
+                await Navigation.PushAsync(pagina);
 
             }
 
@@ -157,7 +157,7 @@ namespace App_Guia_Curso_Etec.View.Pages.Cursos.DS
 
                 pagina.BindingContext = dados;
 
-                Navigation.PushAsync(pagina);
+                await Navigation.PushAsync(pagina);
 
             }
 
@@ -193,7 +193,7 @@ namespace App_Guia_Curso_Etec.View.Pages.Cursos.DS
 
                 pagina.BindingContext = dados;
 
-                Navigation.PushAsync(pagina);
+                await Navigation.PushAsync(pagina);
 
             }
 

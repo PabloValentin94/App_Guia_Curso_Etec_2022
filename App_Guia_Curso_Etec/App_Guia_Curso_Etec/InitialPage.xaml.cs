@@ -40,7 +40,7 @@ namespace App_Guia_Curso_Etec
             try
             {
 
-                Navigation.PushAsync(new View.Pages.Vestibulinho());
+                await Navigation.PushAsync(new View.Pages.Vestibulinho());
 
             }
 
@@ -59,7 +59,7 @@ namespace App_Guia_Curso_Etec
             try
             {
 
-                Navigation.PushAsync(new View.Pages.Meios_Contato());
+                await Navigation.PushAsync(new View.Pages.Meios_Contato());
 
             }
 

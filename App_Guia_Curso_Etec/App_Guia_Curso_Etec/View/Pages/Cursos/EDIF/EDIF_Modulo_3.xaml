@@ -8,7 +8,8 @@
 
         <StackLayout Margin="15" VerticalOptions="Center">
 
-            <Label Text="Terceiro Módulo:"
+            <Label Text="Terceiro
+                         Módulo:"
                    TextColor="#FFFFFF"
                    Style="{ StaticResource Titulo }"/>
 

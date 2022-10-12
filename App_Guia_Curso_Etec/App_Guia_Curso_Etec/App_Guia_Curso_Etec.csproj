@@ -11,15 +11,27 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="View\Images\facebook_icon.jpg" />
     <None Remove="View\Images\hallowtec.png" />
+    <None Remove="View\Images\instagram_icon.png" />
     <None Remove="View\Images\logo.png" />
+    <None Remove="View\Images\site_icon.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="View\Images\Icons\facebook_icon.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\Images\hallowtec.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\Images\Icons\instagram_icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\Images\logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Images\Icons\site_icon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>
