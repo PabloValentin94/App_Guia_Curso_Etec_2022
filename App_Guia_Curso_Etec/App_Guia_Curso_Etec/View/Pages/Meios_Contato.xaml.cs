@@ -123,7 +123,7 @@ namespace App_Guia_Curso_Etec.View.Pages
             try
             {
 
-                Device.OpenUri(new Uri("http://www.etecjau.com.br/etecjau/"));
+                Device.OpenUri(new Uri("https://www.instagram.com/etecjau/"));
 
             }
 
