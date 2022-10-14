@@ -8,14 +8,12 @@
 
 	</item>
 
-	<!--
 	<item>
 
-		<bitmap android:src=""
-				android:titleMode="disabled"
+		<bitmap android:src="@drawable/etec_splash_screen"
+				android:tileMode="disabled"
 				android:gravity="center"/>
 		
 	</item>
-	-->
 
 </layer-list>
