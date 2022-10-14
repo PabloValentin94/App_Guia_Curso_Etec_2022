@@ -6,5 +6,7 @@
     <color name="colorPrimary">#363636</color>
     <color name="colorPrimaryDark">#000000</color>
     <color name="colorAccent">#EE1C23</color>
+
+	<color name="colorSplashScreen">#E11C23</color>
 	
 </resources>

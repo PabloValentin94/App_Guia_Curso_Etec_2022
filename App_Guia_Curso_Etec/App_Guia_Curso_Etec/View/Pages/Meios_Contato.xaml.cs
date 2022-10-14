@@ -47,10 +47,8 @@ namespace App_Guia_Curso_Etec.View.Pages
             try
             {
 
-                // 1 alternativa:
+                // 1ª alternativa:
 
-                /*
-                 
                 string escolha = await DisplayPromptAsync("Atenção!", // Título.
                                                           "Qual você deseja acessar?\n\n" +
                                                           "1: Perfil.\n2: Página.\n", // Mensagem.
@@ -88,11 +86,9 @@ namespace App_Guia_Curso_Etec.View.Pages
 
                 }
 
-                */
+                // 2ª alternativa:
 
-                // 2 alternativa:
-
-                if(await DisplayAlert("Atenção!", "Escolha uma opção:", "Página", "Perfil"))
+                /*if(await DisplayAlert("Atenção!", "Escolha uma opção:", "Página", "Perfil"))
                 {
 
                     Device.OpenUri(new Uri("https://www.facebook.com/etecjauoficial"));
@@ -104,7 +100,7 @@ namespace App_Guia_Curso_Etec.View.Pages
 
                     Device.OpenUri(new Uri("https://www.facebook.com/etec.joaquimferreiradoamaral.1"));
 
-                }
+                }*/
 
             }
 

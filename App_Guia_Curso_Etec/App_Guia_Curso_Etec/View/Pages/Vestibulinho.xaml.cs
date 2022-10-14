@@ -25,7 +25,7 @@ namespace App_Guia_Curso_Etec.View.Pages
 
             lbl_metodologia_vestibulinho.Text = "O vestibulinho é realizado através de uma avaliação presencial, tendo sido, as únicas excessões, " +
                                                 "os vestibulinhos de 2.020 e 2.021, devido a pandemia do Covid-19, que tornou impossível o método " +
-                                                "de avaliação presencial. Nesse período, o critério de avaliação foi o histórico escolar do " +
+                                                "de avaliação presencial. Nesse período, o critério de avaliação foi referente ao histórico escolar do " +
                                                 "participante/inscrito.";
 
         }
