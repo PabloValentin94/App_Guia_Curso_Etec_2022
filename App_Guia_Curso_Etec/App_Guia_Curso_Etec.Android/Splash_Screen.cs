@@ -11,7 +11,7 @@ using System.Text;
 
 namespace App_Guia_Curso_Etec.Droid
 {
-    [Activity(Label = "App_Guia_Curso_Etec",
+    [Activity(Label = "Guia Etec", // Nome do Aplicativo.
               Theme = "@style/MainTheme.SplashScreen", // Tema feito especificamente à Splash Screen.
               MainLauncher = true, /* Define que essa activity é a principal. Como essa é a principal, devemos ir ao arquivo
                                     * "MainActivity" e habilitar esta mesma propriedade como false, senão serão compilados, no

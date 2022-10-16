@@ -31,6 +31,9 @@
                             <RowDefinition Height="*"/>
                             <RowDefinition Height="*"/>
                             <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <!--<RowDefinition Height="*"/>-->
 
                         </Grid.RowDefinitions>
 
@@ -52,14 +55,41 @@
                                Grid.Column="1" Grid.Row="1"
                                Style="{ StaticResource Texto }"/>
 
-                        <ImageButton x:Name="imgbtn_site" Aspect="AspectFill"
+                        <ImageButton x:Name="imgbtn_telefone" Aspect="AspectFill"
                                      Grid.Column="0" Grid.Row="2"
+                                     Clicked="imgbtn_telefone_Clicked"/>
+
+                        <Label x:Name="lbl_telefone"
+                               VerticalTextAlignment="Center"
+                               Grid.Column="1" Grid.Row="2"
+                               Style="{ StaticResource Texto }"/>
+
+                        <ImageButton x:Name="imgbtn_email" Aspect="AspectFill"
+                                     Grid.Column="0" Grid.Row="3"
+                                     Clicked="imgbtn_email_Clicked"/>
+
+                        <Label x:Name="lbl_email"
+                               VerticalTextAlignment="Center"
+                               Grid.Column="1" Grid.Row="3"
+                               Style="{ StaticResource Texto }"/>
+
+                        <ImageButton x:Name="imgbtn_site" Aspect="AspectFill"
+                                     Grid.Column="0" Grid.Row="4"
                                      Clicked="imgbtn_site_Clicked"/>
 
                         <Label x:Name="lbl_site"
                                VerticalTextAlignment="Center"
-                               Grid.Column="1" Grid.Row="2"
+                               Grid.Column="1" Grid.Row="4"
                                Style="{ StaticResource Texto }"/>
+
+                        <!--<ImageButton x:Name="imgbtn_whatsapp" Aspect="AspectFill"
+                                     Grid.Column="0" Grid.Row="0"
+                                     Clicked="imgbtn_whatsapp_Clicked"/>
+
+                        <Label x:Name="lbl_whatsapp"
+                               VerticalTextAlignment="Center"
+                               Grid.Column="1" Grid.Row="0"
+                               Style="{ StaticResource Texto }"/>-->
 
                     </Grid>
 

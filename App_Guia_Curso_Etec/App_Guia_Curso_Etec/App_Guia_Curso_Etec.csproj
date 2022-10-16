@@ -13,12 +13,17 @@
   <ItemGroup>
     <None Remove="View\Images\facebook_icon.jpg" />
     <None Remove="View\Images\hallowtec.png" />
+    <None Remove="View\Images\Icons\email_icon.jpg" />
+    <None Remove="View\Images\Icons\phone_icon.jpg" />
     <None Remove="View\Images\instagram_icon.png" />
     <None Remove="View\Images\logo.png" />
     <None Remove="View\Images\site_icon.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="View\Images\Icons\email_icon.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\Images\Icons\facebook_icon.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
@@ -26,6 +31,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="View\Images\Icons\instagram_icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Images\Icons\phone_icon.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="View\Images\logo.png">
@@ -37,8 +45,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2515" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.3" />
+    <PackageReference Include="Xamarin.Forms.OpenWhatsApp" Version="1.0.1" />
   </ItemGroup>
 
   <ItemGroup>
