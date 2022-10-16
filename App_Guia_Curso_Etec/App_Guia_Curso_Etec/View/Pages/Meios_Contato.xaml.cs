@@ -26,33 +26,32 @@ namespace App_Guia_Curso_Etec.View.Pages
 
             imgbtn_facebook.Source = ImageSource.FromResource("App_Guia_Curso_Etec.View.Images.Icons.facebook_icon.jpg");
 
-            lbl_facebook.Text = "Perfil: Etec Joaquim Ferreira Do Amaral.\n\n" +
-                                "Página: Etec Jau.";
+            /*lbl_facebook.Text = "Perfil: Etec Joaquim Ferreira Do Amaral.\n\n" +
+                                "Página: Etec Jau.";*/
 
             // Definindo a imagem e o texto do Instagram:
 
             imgbtn_instagram.Source = ImageSource.FromResource("App_Guia_Curso_Etec.View.Images.Icons.instagram_icon.png");
 
-            lbl_instagram.Text = "Perfil: etecjau.";
+            //lbl_instagram.Text = "Perfil: etecjau.";
 
             // Definindo a imagem e o texto do Site:
 
             imgbtn_site.Source = ImageSource.FromResource("App_Guia_Curso_Etec.View.Images.Icons.site_icon.png");
 
-            lbl_site.Text = "Site: etecjau.com.br";
+            //lbl_site.Text = "Site: etecjau.com.br";
 
             // Definindo a imagem e o texto do telefone:
 
             imgbtn_telefone.Source = ImageSource.FromResource("App_Guia_Curso_Etec.View.Images.Icons.phone_icon.jpg");
 
-            lbl_telefone.Text = "Telefone: (14) 3622-3566."/* +
-                                "Fax: (14) 3624-8585."*/;
+            /*lbl_telefone.Text = "Telefone: (14) 3622-3566."// + "\n\nFax: (14) 3624-8585."*/;
 
             // Definindo a imagem e o texto do e-mail:
 
             imgbtn_email.Source = ImageSource.FromResource("App_Guia_Curso_Etec.View.Images.Icons.email_icon.jpg");
 
-            lbl_email.Text = "Clique no ícone para mais informações.";
+            //lbl_email.Text = "Clique no ícone para mais informações.";
 
             /*lbl_email.Text = "e070dir@cps.sp.gov.br\n\n" +
                              "e070adm@cps.sp.gov.br\n\n" +
@@ -184,7 +183,7 @@ namespace App_Guia_Curso_Etec.View.Pages
             {
 
                 string escolha = await DisplayPromptAsync("Atenção!", // Título.
-                                                          "Qual você deseja acessar?\n\n" +
+                                                          "Qual e-mail você deseja acessar?\n\n" +
                                                           "1 - Diretoria: e070dir@cps.sp.gov.br\n\n" +
                                                           "2 - Diretoria Administrativa: e070adm@cps.sp.gov.br\n\n" +
                                                           "3 - Diretoria de Serviço Acadêmica: e070acad@cps.sp.gov.br\n", // Mensagem.

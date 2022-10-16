@@ -5,6 +5,26 @@
              Title="Tela Inicial"
              Style="{ StaticResource Tema_Principal }">
     
+    <!-- Definido um estilo único.
+
+    <ContentPage.Resources>
+
+        <ResourceDictionary>
+
+            <Style x:Key="Texto_Destacado" TargetType="Label">
+
+                <Setter Property="TextColor" Value="#FFFF00"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="FontSize" Value="Medium"/>
+
+            </Style>
+            
+        </ResourceDictionary>
+        
+    </ContentPage.Resources>-->
+    
+    <!-- Conteúdo da interface. -->
+    
     <ContentPage.Content>
 
         <ScrollView>
@@ -18,9 +38,14 @@
 
                 <Frame HeightRequest="500" CornerRadius="10" Style="{ StaticResource Cor_Frame }">
 
-                    <StackLayout Spacing="10">
+                    <StackLayout Spacing="15">
 
-                        <Image x:Name="img_hallowtec" VerticalOptions="FillAndExpand" Aspect="Fill"/>
+                        <ImageButton x:Name="imgbtn_hallowtec" VerticalOptions="FillAndExpand"
+                                     Aspect="Fill" Clicked="imgbtn_hallowtec_Clicked"/>
+
+                        <Label Text="Clique na imagem para mais informações."
+                               HorizontalTextAlignment="Center"
+                               Style="{ StaticResource Texto_Destacado}"/>
 
                     </StackLayout>
 
@@ -35,7 +60,46 @@
                     <StackLayout Spacing="10">
 
                         <Label x:Name="lbl_sobre_unidade"
-                               Style="{ StaticResource Texto }"/>
+                               Style="{ StaticResource Texto }">
+
+                            <Label.FormattedText>
+
+                                <FormattedString>
+
+                                    <Span Text="A unidade iniciou as atividades em "/>
+                                    <Span Text="1928 " Style="{ StaticResource Texto_Destacado }"/>
+                                    <Span Text="com cursos de "/>
+                                    <Span Text="Fundição " Style="{ StaticResource Texto_Destacado }"/>
+                                    <Span Text=", de "/>
+                                    <Span Text="Mecânica de Máquinas " Style="{ StaticResource Texto_Destacado }"/>
+                                    <Span Text=", de "/>
+                                    <Span Text="Marcenaria " Style="{ StaticResource Texto_Destacado }"/>
+                                    <Span Text="e de "/>
+                                    <Span Text="Corte e Costura" Style="{ StaticResource Texto_Destacado }"/>
+                                    <Span Text=". Em "/>
+                                    <Span Text="1985 " Style="{ StaticResource Texto_Destacado }"/>
+                                    <Span Text="a Etec passou a integrar as escolas da "/>
+                                    <Span Text="Divisão de Supervisão e Apoio as Escolas Técnicas Estaduais " Style="{ StaticResource Texto_Destacado }"/>
+                                    <Span Text="e , em "/>
+                                    <Span Text="1991" Style="{ StaticResource Texto_Destacado }"/>
+                                    <Span Text=", foi transferida para a "/>
+                                    <Span Text="Divisão Estadual de Ensino Técnico " Style="{ StaticResource Texto_Destacado }"/>
+                                    <Span Text="("/>
+                                    <Span Text="D.E.E.T." Style="{ StaticResource Texto_Destacado }"/>
+                                    <Span Text=") "/>
+                                    <Span Text="da "/>
+                                    <Span Text="Secretaria de Ciência, Tecnologia e Desenvolvimento Econômico " Style="{ StaticResource Texto_Destacado }"/>
+                                    <Span Text=". Foi incorporada ao "/>
+                                    <Span Text="Centro Paula Souza " Style="{ StaticResource Texto_Destacado }"/>
+                                    <Span Text="em "/>
+                                    <Span Text="1994" Style="{ StaticResource Texto_Destacado }"/>
+                                    <Span Text="."/>
+
+                                </FormattedString>
+                                
+                            </Label.FormattedText>
+                            
+                        </Label>
 
                     </StackLayout>
 
@@ -49,8 +113,95 @@
 
                     <StackLayout Spacing="10">
 
-                        <Label x:Name="lbl_endereco"
-                               Style="{ StaticResource Texto }"/>
+                        <Label Style="{ StaticResource Texto }">
+
+                            <Label.FormattedText>
+
+                                <FormattedString>
+
+                                    <Span Text="País: " Style="{ StaticResource Texto_Destacado }"/>
+                                    <Span Text="Brasil."/>
+
+                                </FormattedString>
+                                
+                            </Label.FormattedText>
+                            
+                        </Label>
+
+                        <Label Style="{ StaticResource Texto }">
+
+                            <Label.FormattedText>
+
+                                <FormattedString>
+
+                                    <Span Text="Estado: " Style="{ StaticResource Texto_Destacado }"/>
+                                    <Span Text="São Paulo (S.P.)."/>
+
+                                </FormattedString>
+
+                            </Label.FormattedText>
+
+                        </Label>
+
+                        <Label Style="{ StaticResource Texto }">
+
+                            <Label.FormattedText>
+
+                                <FormattedString>
+
+                                    <Span Text="Cidade: " Style="{ StaticResource Texto_Destacado }"/>
+                                    <Span Text="Jaú."/>
+
+                                </FormattedString>
+
+                            </Label.FormattedText>
+
+                        </Label>
+
+                        <Label Style="{ StaticResource Texto }">
+
+                            <Label.FormattedText>
+
+                                <FormattedString>
+
+                                    <Span Text="Rua: " Style="{ StaticResource Texto_Destacado }"/>
+                                    <Span Text="Humaitá - Centro."/>
+
+                                </FormattedString>
+
+                            </Label.FormattedText>
+
+                        </Label>
+
+                        <Label Style="{ StaticResource Texto }">
+
+                            <Label.FormattedText>
+
+                                <FormattedString>
+
+                                    <Span Text="Nº: " Style="{ StaticResource Texto_Destacado }"/>
+                                    <Span Text="1090"/>
+
+                                </FormattedString>
+
+                            </Label.FormattedText>
+
+                        </Label>
+
+                        <Label Style="{ StaticResource Texto }">
+
+                            <Label.FormattedText>
+
+                                <FormattedString>
+
+                                    <Span Text="CEP: " Style="{ StaticResource Texto_Destacado }"/>
+                                    <Span Text="17.201-320"/>
+
+                                </FormattedString>
+
+                            </Label.FormattedText>
+
+                        </Label>
 
                     </StackLayout>
                     

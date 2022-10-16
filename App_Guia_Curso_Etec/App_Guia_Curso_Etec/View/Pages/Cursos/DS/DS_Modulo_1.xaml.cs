@@ -20,6 +20,8 @@ namespace App_Guia_Curso_Etec.View.Pages.Cursos.DS
 
             InitializeComponent();
 
+            lbl_titulo_modulo.Text = "Primeiro\nMódulo:";
+
         }
 
     }

@@ -8,8 +8,7 @@
 
         <StackLayout Margin="15" VerticalOptions="Center">
 
-            <Label Text="Segundo
-                         Módulo:"
+            <Label x:Name="lbl_titulo_modulo"
                    TextColor="#FFFFFF"
                    Style="{ StaticResource Titulo }"/>
 

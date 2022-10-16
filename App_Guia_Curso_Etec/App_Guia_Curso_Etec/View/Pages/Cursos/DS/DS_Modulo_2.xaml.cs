@@ -22,6 +22,8 @@ namespace App_Guia_Curso_Etec.View.Pages.Cursos.DS
 
             InitializeComponent();
 
+            lbl_titulo_modulo.Text = "Segundo\nMódulo:";
+
         }
 
         private async void btn_ban_dad_02_Clicked(object sender, EventArgs e)

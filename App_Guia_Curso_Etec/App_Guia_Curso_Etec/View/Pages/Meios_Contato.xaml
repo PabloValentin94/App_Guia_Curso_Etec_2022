@@ -41,34 +41,91 @@
                                      Grid.Column="0" Grid.Row="0"
                                      Clicked="imgbtn_facebook_Clicked"/>
 
-                        <Label x:Name="lbl_facebook"
-                               VerticalTextAlignment="Center"
-                               Grid.Column="1" Grid.Row="0"
-                               Style="{ StaticResource Texto }"/>
+                        <StackLayout VerticalOptions="Center" Grid.Column="1" Grid.Row="0">
+
+                            <Label Style="{ StaticResource Texto }">
+
+                                <Label.FormattedText>
+
+                                    <FormattedString>
+
+                                        <Span Text="Perfil: " Style="{ StaticResource Texto_Destacado }"/>
+                                        <Span Text="Etec Joaquim Ferreira Do Amaral."/>
+
+                                    </FormattedString>
+                                    
+                                </Label.FormattedText>
+                                
+                            </Label>
+
+                            <Label Style="{ StaticResource Texto }">
+
+                                <Label.FormattedText>
+
+                                    <FormattedString>
+
+                                        <Span Text="Página: " Style="{ StaticResource Texto_Destacado }"/>
+                                        <Span Text="Etec Jau."/>
+
+                                    </FormattedString>
+                                    
+                                </Label.FormattedText>
+                                
+                            </Label>
+
+                        </StackLayout>
 
                         <ImageButton x:Name="imgbtn_instagram" Aspect="AspectFill"
                                      Grid.Column="0" Grid.Row="1"
                                      Clicked="imgbtn_instagram_Clicked"/>
 
-                        <Label x:Name="lbl_instagram"
-                               VerticalTextAlignment="Center"
-                               Grid.Column="1" Grid.Row="1"
-                               Style="{ StaticResource Texto }"/>
+                        <StackLayout VerticalOptions="Center" Grid.Column="1" Grid.Row="1">
+
+                            <Label Style="{ StaticResource Texto }">
+
+                                <Label.FormattedText>
+
+                                    <FormattedString>
+
+                                        <Span Text="Perfil: " Style="{ StaticResource Texto_Destacado }"/>
+                                        <Span Text="etecjau."/>
+
+                                    </FormattedString>
+
+                                </Label.FormattedText>
+
+                            </Label>
+
+                        </StackLayout>
 
                         <ImageButton x:Name="imgbtn_telefone" Aspect="AspectFill"
                                      Grid.Column="0" Grid.Row="2"
                                      Clicked="imgbtn_telefone_Clicked"/>
 
-                        <Label x:Name="lbl_telefone"
-                               VerticalTextAlignment="Center"
-                               Grid.Column="1" Grid.Row="2"
-                               Style="{ StaticResource Texto }"/>
+                        <StackLayout VerticalOptions="Center" Grid.Column="1" Grid.Row="2">
+
+                            <Label Style="{ StaticResource Texto }">
+
+                                <Label.FormattedText>
+
+                                    <FormattedString>
+
+                                        <Span Text="Telefone: " Style="{ StaticResource Texto_Destacado }"/>
+                                        <Span Text="(14) 3622-3566."/>
+
+                                    </FormattedString>
+
+                                </Label.FormattedText>
+
+                            </Label>
+
+                        </StackLayout>
 
                         <ImageButton x:Name="imgbtn_email" Aspect="AspectFill"
                                      Grid.Column="0" Grid.Row="3"
                                      Clicked="imgbtn_email_Clicked"/>
 
-                        <Label x:Name="lbl_email"
+                        <Label Text="Clique no ícone para mais informações."
                                VerticalTextAlignment="Center"
                                Grid.Column="1" Grid.Row="3"
                                Style="{ StaticResource Texto }"/>
@@ -77,10 +134,24 @@
                                      Grid.Column="0" Grid.Row="4"
                                      Clicked="imgbtn_site_Clicked"/>
 
-                        <Label x:Name="lbl_site"
-                               VerticalTextAlignment="Center"
-                               Grid.Column="1" Grid.Row="4"
-                               Style="{ StaticResource Texto }"/>
+                        <StackLayout VerticalOptions="Center" Grid.Column="1" Grid.Row="4">
+
+                            <Label Style="{ StaticResource Texto }">
+
+                                <Label.FormattedText>
+
+                                    <FormattedString>
+
+                                        <Span Text="Site: " Style="{ StaticResource Texto_Destacado }"/>
+                                        <Span Text="etecjau.com.br"/>
+
+                                    </FormattedString>
+
+                                </Label.FormattedText>
+
+                            </Label>
+
+                        </StackLayout>
 
                         <!--<ImageButton x:Name="imgbtn_whatsapp" Aspect="AspectFill"
                                      Grid.Column="0" Grid.Row="0"

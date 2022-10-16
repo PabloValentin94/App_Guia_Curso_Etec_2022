@@ -22,14 +22,54 @@
                            Style="{ StaticResource Subtitulo }"/>
 
                     <Label x:Name="lbl_definicao_vestibulinho"
-                           Style="{ StaticResource Texto }"/>
+                           Style="{ StaticResource Texto }">
+
+                        <Label.FormattedText>
+
+                            <FormattedString>
+
+                                <Span Text="O vestibulinho é um "/>
+                                <Span Text="processo seletivo " Style="{ StaticResource Texto_Destacado }"/>
+                                <Span Text="que seleciona candidatos para as "/>
+                                <Span Text="Escolas Técnicas Estaduais " Style="{ StaticResource Texto_Destacado }"/>
+                                <Span Text="("/>
+                                <Span Text="Etecs" Style="{ StaticResource Texto_Destacado }"/>
+                                <Span Text=")."/>
+
+                            </FormattedString>
+                            
+                        </Label.FormattedText>
+                        
+                    </Label>
 
                     <Label Text="Metodologia:"
                            TextColor="#E11C23"
                            Style="{ StaticResource Subtitulo }"/>
 
                     <Label x:Name="lbl_metodologia_vestibulinho"
-                           Style="{ StaticResource Texto }"/>
+                           Style="{ StaticResource Texto }">
+
+                        <Label.FormattedText>
+
+                            <FormattedString>
+
+                                <Span Text="O vestibulinho é realizado através de uma "/>
+                                <Span Text="avaliação presencial" Style="{ StaticResource Texto_Destacado }"/>
+                                <Span Text=", tendo sido, as únicas excessões, os vestibulinhos de "/>
+                                <Span Text="2020 " Style="{ StaticResource Texto_Destacado }"/>
+                                <Span Text="e "/>
+                                <Span Text="2021" Style="{ StaticResource Texto_Destacado }"/>
+                                <Span Text=", devido a pandemia do "/>
+                                <Span Text="Covid-19" Style="{ StaticResource Texto_Destacado }"/>
+                                <Span Text=", que tornou impossível o método de avaliação presencial. Nesse período, o critério de avaliação foi referente ao "/>
+                                <Span Text="histórico escolar " Style="{ StaticResource Texto_Destacado }"/>
+                                <Span Text="do participante/inscrito."/>
+
+                            </FormattedString>
+                            
+                        </Label.FormattedText>
+                        
+                    </Label>
 
                     <Label Text="Site Oficial:"
                            TextColor="#E11C23"

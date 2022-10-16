@@ -8,167 +8,179 @@
     
     <Application.Resources>
 
-        <Style x:Name="Tema_App" x:Key="Tema_Principal" TargetType="Page">
+        <ResourceDictionary>
 
-            <Setter Property="BackgroundColor" Value="#000000"/>
+            <Style x:Name="Tema_App" x:Key="Tema_Principal" TargetType="Page">
 
-        </Style>
+                <Setter Property="BackgroundColor" Value="#000000"/>
 
-        <Style x:Key="Tema_DS" TargetType="Page">
+            </Style>
 
-            <Setter Property="Background">
+            <Style x:Key="Tema_DS" TargetType="Page">
 
-                <Setter.Value>
+                <Setter Property="Background">
 
-                    <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
+                    <Setter.Value>
 
-                        <GradientStop Color="#FF00FF" Offset="0.0"/>
-                        <GradientStop Color="#C71585" Offset="0.1"/>
-                        <GradientStop Color="#9400D3" Offset="0.6"/>
-                        <GradientStop Color="#4B0082" Offset="0.9"/>
+                        <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
 
-                    </LinearGradientBrush>
+                            <GradientStop Color="#FF00FF" Offset="0.0"/>
+                            <GradientStop Color="#C71585" Offset="0.1"/>
+                            <GradientStop Color="#9400D3" Offset="0.6"/>
+                            <GradientStop Color="#4B0082" Offset="0.9"/>
 
-                </Setter.Value>
-                
-            </Setter>
+                        </LinearGradientBrush>
 
-            <Setter Property="Title" Value="Desenvolvimento de Sistemas"/>
+                    </Setter.Value>
 
-        </Style>
+                </Setter>
 
-        <Style x:Key="Tema_ADM" TargetType="Page">
+                <Setter Property="Title" Value="Desenvolvimento de Sistemas"/>
 
-            <Setter Property="Background">
+            </Style>
 
-                <Setter.Value>
+            <Style x:Key="Tema_ADM" TargetType="Page">
 
-                    <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
+                <Setter Property="Background">
 
-                        <GradientStop Color="#000000" Offset="0.0"/>
-                        <GradientStop Color="#1C1C1C" Offset="0.2"/>
-                        <GradientStop Color="#FF8C00" Offset="0.9"/>
+                    <Setter.Value>
 
-                    </LinearGradientBrush>
-                    
-                </Setter.Value>
-                
-            </Setter>
+                        <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
 
-            <Setter Property="Title" Value="Administração"/>
+                            <GradientStop Color="#000000" Offset="0.0"/>
+                            <GradientStop Color="#1C1C1C" Offset="0.2"/>
+                            <GradientStop Color="#FF8C00" Offset="0.9"/>
 
-        </Style>
+                        </LinearGradientBrush>
 
-        <Style x:Key="Tema_MECA" TargetType="Page">
+                    </Setter.Value>
 
-            <Setter Property="Background">
+                </Setter>
 
-                <Setter.Value>
+                <Setter Property="Title" Value="Administração"/>
 
-                    <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
+            </Style>
 
-                        <GradientStop Color="#FFFFFF" Offset="0.0"/>
-                        <GradientStop Color="#696969" Offset="0.5"/>
-                        <GradientStop Color="#4F4F4F" Offset="0.7"/>
-                        <GradientStop Color="#1C1C1C" Offset="0.9"/>
+            <Style x:Key="Tema_MECA" TargetType="Page">
 
-                    </LinearGradientBrush>
+                <Setter Property="Background">
 
-                </Setter.Value>
+                    <Setter.Value>
 
-            </Setter>
+                        <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
 
-            <Setter Property="Title" Value="Mecatrônica"/>
+                            <GradientStop Color="#FFFFFF" Offset="0.0"/>
+                            <GradientStop Color="#696969" Offset="0.5"/>
+                            <GradientStop Color="#4F4F4F" Offset="0.7"/>
+                            <GradientStop Color="#1C1C1C" Offset="0.9"/>
 
-        </Style>
+                        </LinearGradientBrush>
 
-        <Style x:Key="Tema_EDIF" TargetType="Page" BaseResourceKey="Tema_Principal">
+                    </Setter.Value>
 
-            <Setter Property="Background">
+                </Setter>
 
-                <Setter.Value>
+                <Setter Property="Title" Value="Mecatrônica"/>
 
-                    <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
+            </Style>
 
-                        <GradientStop Color="#000000" Offset="0.0"/>
-                        <GradientStop Color="#FFA500" Offset="0.6"/>
-                        <GradientStop Color="#FFFFFF" Offset="0.9"/>
+            <Style x:Key="Tema_EDIF" TargetType="Page" BaseResourceKey="Tema_Principal">
 
-                    </LinearGradientBrush>
-                    
-                </Setter.Value>
-                
-            </Setter>
+                <Setter Property="Background">
 
-            <Setter Property="Title" Value="Edificações"/>
+                    <Setter.Value>
 
-        </Style>
+                        <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
 
-        <Style x:Key="Cor_Texto" TargetType="Label">
+                            <GradientStop Color="#000000" Offset="0.0"/>
+                            <GradientStop Color="#FFA500" Offset="0.6"/>
+                            <GradientStop Color="#FFFFFF" Offset="0.9"/>
 
-            <Setter Property="TextColor" Value="#FFFFFF"/>
+                        </LinearGradientBrush>
 
-        </Style>
+                    </Setter.Value>
 
-        <Style x:Key="Cor_Frame" TargetType="Frame">
+                </Setter>
 
-            <Setter Property="BackgroundColor" Value="#363636"/>
+                <Setter Property="Title" Value="Edificações"/>
 
-        </Style>
+            </Style>
 
-        <Style x:Key="Fonte_Personalizada" TargetType="Label">
+            <Style x:Key="Cor_Texto" TargetType="Label">
 
-            <Setter Property="FontFamily">
+                <Setter Property="TextColor" Value="#FFFFFF"/>
 
-                <Setter.Value>
+            </Style>
 
-                    <OnPlatform x:TypeArguments="x:String"
+            <Style x:Key="Cor_Frame" TargetType="Frame">
+
+                <Setter Property="BackgroundColor" Value="#363636"/>
+
+            </Style>
+
+            <Style x:Key="Fonte_Personalizada" TargetType="Label">
+
+                <Setter Property="FontFamily">
+
+                    <Setter.Value>
+
+                        <OnPlatform x:TypeArguments="x:String"
                                 iOS="PestaTahunBaru.ttf"
                                 Android="PestaTahunBaru.ttf#PestaTahunBaru"/>
 
-                </Setter.Value>
-                
-            </Setter>
-            
-        </Style>
+                    </Setter.Value>
 
-        <Style x:Key="Titulo" TargetType="Label" BaseResourceKey="Fonte_Personalizada">
+                </Setter>
 
-            <Setter Property="FontSize" Value="45"/>
-            <Setter Property="FontAttributes" Value="Bold"/>
-            <Setter Property="HorizontalTextAlignment" Value="Center"/>
+            </Style>
 
-        </Style>
+            <Style x:Key="Titulo" TargetType="Label" BaseResourceKey="Fonte_Personalizada">
 
-        <Style x:Key="Subtitulo" TargetType="Label" BaseResourceKey="Fonte_Personalizada">
+                <Setter Property="FontSize" Value="45"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
 
-            <Setter Property="FontSize" Value="28"/>
-            <Setter Property="FontAttributes" Value="Bold"/>
-            <Setter Property="HorizontalTextAlignment" Value="Start"/>
+            </Style>
 
-        </Style>
+            <Style x:Key="Subtitulo" TargetType="Label" BaseResourceKey="Fonte_Personalizada">
 
-        <Style x:Key="Texto" TargetType="Label" BaseResourceKey="Cor_Texto">
+                <Setter Property="FontSize" Value="28"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="HorizontalTextAlignment" Value="Start"/>
 
-            <Setter Property="FontSize" Value="Medium"/>
-            <Setter Property="HorizontalTextAlignment" Value="Start"/>
+            </Style>
 
-        </Style>
+            <Style x:Key="Texto" TargetType="Label" BaseResourceKey="Cor_Texto">
 
-        <Style x:Key="Botao" TargetType="Button" BaseResourceKey="Cor_Texto">
+                <Setter Property="FontSize" Value="Medium"/>
+                <Setter Property="HorizontalTextAlignment" Value="Start"/>
 
-            <Setter Property="FontAttributes" Value="Bold"/>
-            <Setter Property="BorderRadius" Value="100"/>
-            <Setter Property="BorderWidth" Value="5"/>
-            <Setter Property="BorderColor" Value="#FFFFFF"/>
+            </Style>
 
-        </Style>
+            <Style x:Key="Texto_Destacado" TargetType="Label">
 
-        <Style x:Key="Botao_Modulos" TargetType="Button" BaseResourceKey="Botao">
+                <Setter Property="TextColor" Value="#FFFF00"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="FontSize" Value="Medium"/>
 
-            <Setter Property="BackgroundColor" Value="Transparent"/>
+            </Style>
 
-        </Style>
+            <Style x:Key="Botao" TargetType="Button" BaseResourceKey="Cor_Texto">
+
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="BorderRadius" Value="100"/>
+                <Setter Property="BorderWidth" Value="5"/>
+                <Setter Property="BorderColor" Value="#FFFFFF"/>
+
+            </Style>
+
+            <Style x:Key="Botao_Modulos" TargetType="Button" BaseResourceKey="Botao">
+
+                <Setter Property="BackgroundColor" Value="Transparent"/>
+
+            </Style>
+
+        </ResourceDictionary>
 
     </Application.Resources>
     
