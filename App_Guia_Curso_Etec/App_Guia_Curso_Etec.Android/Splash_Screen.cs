@@ -22,11 +22,15 @@ namespace App_Guia_Curso_Etec.Droid
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
+
             base.OnCreate(savedInstanceState);
+
+            // Iniciando a outra activity do projeto.
 
             StartActivity(new Intent(Application.Context, typeof(MainActivity)));
 
             // Create your application here
+
         }
     }
 }

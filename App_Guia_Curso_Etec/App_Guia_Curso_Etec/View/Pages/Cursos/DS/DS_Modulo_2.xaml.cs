@@ -41,7 +41,7 @@ namespace App_Guia_Curso_Etec.View.Pages.Cursos.DS
 
                     Valores_Atitudes = "- Incentivar a criatividade;\n\n" +
                                        "- Desenvolver a criticidade;\n\n" +
-                                       "- Fortalecer a persistência e o interesse na resolução de Situações - problema."
+                                       "- Fortalecer a persistência e o interesse na resolução de situações - problema."
 
                 };
 
@@ -77,7 +77,7 @@ namespace App_Guia_Curso_Etec.View.Pages.Cursos.DS
                                                     "de desenvolvimento de acordo com as especificações do projeto;\n\n" +
                                                     "- Codificar e depurar programas.",
 
-                    Valores_Atitudes =  "- Fortalecer a persistência e o interesse na resolução de Situações - problema;\n\n" +
+                    Valores_Atitudes =  "- Fortalecer a persistência e o interesse na resolução de situações - problema;\n\n" +
                                         "- Incentivar ações que promovam a cooperação;\n\n" +
                                         "- Desenvolver a criatividade."
 
@@ -147,10 +147,10 @@ namespace App_Guia_Curso_Etec.View.Pages.Cursos.DS
 
                     Nome = "Programação Web II",
 
-                    Atribuicoes_Responsabilidades = "- Planejar projetos de sistemas de informação para Web.",
+                    Atribuicoes_Responsabilidades = "- Planejar projetos de sistemas de informação para a Web.",
 
                     Valores_Atitudes = "- Responsabilizar-se pela produção, utilização e divulgação de informações;\n\n" +
-                                       "- Fortalecer a persistência e o interesse na resolução de Situações - problema;\n\n" +
+                                       "- Fortalecer a persistência e o interesse na resolução de situações - problema;\n\n" +
                                        "- Incentivar a criatividade."
 
                 };
@@ -185,7 +185,7 @@ namespace App_Guia_Curso_Etec.View.Pages.Cursos.DS
 
                     Atribuicoes_Responsabilidades = "- Desenvolver sistemas embarcados.",
 
-                    Valores_Atitudes = "- Fortalecer a persistência e o interesse na resolução de Situações - problema;\n\n" +
+                    Valores_Atitudes = "- Fortalecer a persistência e o interesse na resolução de situações - problema;\n\n" +
                                        "- Estimular a organização;\n\n" +
                                        "- Incentivar a criatividade."
 

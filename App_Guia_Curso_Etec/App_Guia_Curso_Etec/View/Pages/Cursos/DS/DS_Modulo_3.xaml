@@ -18,21 +18,26 @@
 
                     <Button x:Name="btn_sis_inf"
                             Text="Internet, Protocolos e Segurança de Sistemas da Informação"
-                            Style="{ StaticResource Botao_Modulos }"/>
+                            Style="{ StaticResource Botao_Modulos }"
+                            Clicked="btn_sis_inf_Clicked"/>
 
                     <Button x:Name="btn_pla_des_tcc_ds"
                             Text="Planejamento e Desenvolvimento do Trabalho de Conclusão de Curso (T.C.C.) 
                             em Desenvolvimento de Sistemas"
-                            Style="{ StaticResource Botao_Modulos }"/>
+                            Style="{ StaticResource Botao_Modulos }"
+                            Clicked="btn_pla_des_tcc_ds_Clicked"/>
 
                     <Button x:Name="btn_pro_mob_02" Text="Programação de Aplicativos Mobile II"
-                            Style="{ StaticResource Botao_Modulos }"/>
+                            Style="{ StaticResource Botao_Modulos }"
+                            Clicked="btn_pro_mob_02_Clicked"/>
 
                     <Button x:Name="btn_pro_web_03" Text="Programação Web III"
-                            Style="{ StaticResource Botao_Modulos }"/>
+                            Style="{ StaticResource Botao_Modulos }"
+                            Clicked="btn_pro_web_03_Clicked"/>
 
                     <Button x:Name="btn_qua_tes_sof" Text="Qualidade e Teste de Software"
-                            Style="{ StaticResource Botao_Modulos }"/>
+                            Style="{ StaticResource Botao_Modulos }"
+                            Clicked="btn_qua_tes_sof_Clicked"/>
 
                 </StackLayout>
 

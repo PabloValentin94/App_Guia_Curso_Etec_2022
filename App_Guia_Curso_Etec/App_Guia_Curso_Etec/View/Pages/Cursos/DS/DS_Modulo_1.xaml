@@ -17,22 +17,28 @@
                 <StackLayout Spacing="20">
 
                     <Button x:Name="btn_ana_pro_sis" Text="Análise e Projeto de Sistemas"
-                            Style="{ StaticResource Botao_Modulos }"/>
+                            Style="{ StaticResource Botao_Modulos }"
+                            Clicked="btn_ana_pro_sis_Clicked"/>
 
                     <Button x:Name="btn_ban_dad_01" Text="Banco de Dados I"
-                            Style="{ StaticResource Botao_Modulos }"/>
+                            Style="{ StaticResource Botao_Modulos }"
+                            Clicked="btn_ban_dad_01_Clicked"/>
 
                     <Button x:Name="btn_des_dig" Text="Design Digital"
-                            Style="{ StaticResource Botao_Modulos }"/>
+                            Style="{ StaticResource Botao_Modulos }"
+                            Clicked="btn_des_dig_Clicked"/>
 
                     <Button x:Name="btn_fun_inf" Text="Fundamentos da Informática"
-                            Style="{ StaticResource Botao_Modulos }"/>
+                            Style="{ StaticResource Botao_Modulos }"
+                            Clicked="btn_fun_inf_Clicked"/>
 
                     <Button x:Name="btn_pro_web_01" Text="Programação Web I"
-                            Style="{ StaticResource Botao_Modulos }"/>
+                            Style="{ StaticResource Botao_Modulos }"
+                            Clicked="btn_pro_web_01_Clicked"/>
 
                     <Button x:Name="btn_pro_alg" Text="Técnicas de Programação e Algoritmos"
-                            Style="{ StaticResource Botao_Modulos }"/>
+                            Style="{ StaticResource Botao_Modulos }"
+                            Clicked="btn_pro_alg_Clicked"/>
 
                 </StackLayout>
                 

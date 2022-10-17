@@ -48,7 +48,6 @@
                         <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
 
                             <GradientStop Color="#000000" Offset="0.0"/>
-                            <GradientStop Color="#1C1C1C" Offset="0.2"/>
                             <GradientStop Color="#FF8C00" Offset="0.9"/>
 
                         </LinearGradientBrush>
@@ -93,8 +92,7 @@
                         <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
 
                             <GradientStop Color="#000000" Offset="0.0"/>
-                            <GradientStop Color="#FFA500" Offset="0.6"/>
-                            <GradientStop Color="#FFFFFF" Offset="0.9"/>
+                            <GradientStop Color="#FF00FF" Offset="0.9"/>
 
                         </LinearGradientBrush>
 
