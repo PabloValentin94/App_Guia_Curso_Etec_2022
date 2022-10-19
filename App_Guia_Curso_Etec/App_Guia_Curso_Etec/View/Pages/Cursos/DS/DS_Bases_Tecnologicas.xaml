@@ -1,24 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="App_Guia_Curso_Etec.View.Pages.Cursos.DS.DS_Componente"
+             x:Class="App_Guia_Curso_Etec.View.Pages.Cursos.DS.DS_Bases_Tecnologicas"
              Style="{ StaticResource Tema_DS }">
     
     <ContentPage.Content>
-        
-        <StackLayout VerticalOptions="Center">
 
-            <ScrollView>
+        <ScrollView>
 
-                <StackLayout Spacing="20" Padding="20">
+            <StackLayout Spacing="20" Padding="20">
 
-                    <Frame BackgroundColor="#8B0000"
+                <Frame BackgroundColor="#8B0000"
                            CornerRadius="20"
                            BorderColor="#FFFFFF">
 
-                        <StackLayout Spacing="0">
+                    <StackLayout Spacing="0">
 
-                            <Label Text="Componente"
+                        <Label Text="Componente"
                                    TextColor="#FFFFFF"
                                    FontAttributes="Bold"
                                    FontSize="25"
@@ -26,23 +24,23 @@
                                    BackgroundColor="#363636"
                                    Padding="5"/>
 
-                            <Label Text="{ Binding Nome }"
+                        <Label Text="{ Binding Nome }"
                                    TextColor="#FFFFFF"
                                    FontSize="20"
                                    HorizontalTextAlignment="Center"
                                    Padding="10"/>
 
-                        </StackLayout>
+                    </StackLayout>
 
-                    </Frame>
+                </Frame>
 
-                    <Frame BackgroundColor="#8B0000"
+                <Frame BackgroundColor="#8B0000"
                            CornerRadius="20"
                            BorderColor="#FFFFFF">
 
-                        <StackLayout Spacing="0">
+                    <StackLayout Spacing="0">
 
-                            <Label Text="Carga Horária"
+                        <Label Text="Carga Horária"
                                    TextColor="#FFFFFF"
                                    FontAttributes="Bold"
                                    FontSize="25"
@@ -50,23 +48,23 @@
                                    BackgroundColor="#363636"
                                    Padding="5"/>
 
-                            <Label Text="{ Binding Carga_Horaria }"
+                        <Label Text="{ Binding Carga_Horaria }"
                                    TextColor="#FFFFFF"
                                    FontSize="20"
                                    HorizontalTextAlignment="Center"
                                    Padding="10"/>
 
-                        </StackLayout>
+                    </StackLayout>
 
-                    </Frame>
+                </Frame>
 
-                    <Frame BackgroundColor="#8B0000"
+                <Frame BackgroundColor="#8B0000"
                            CornerRadius="20"
                            BorderColor="#FFFFFF">
 
-                        <StackLayout Spacing="0">
+                    <StackLayout Spacing="0">
 
-                            <Label Text="Atribuições e Responsabilidades:"
+                        <Label Text="Atribuições e Responsabilidades:"
                                    TextColor="#FFFFFF"
                                    FontAttributes="Bold"
                                    FontSize="25"
@@ -74,23 +72,23 @@
                                    BackgroundColor="#363636"
                                    Padding="5"/>
 
-                            <Label Text="{ Binding Atribuicoes_Responsabilidades }"
+                        <Label Text="{ Binding Atribuicoes_Responsabilidades }"
                                    TextColor="#FFFFFF"
                                    FontSize="20"
                                    HorizontalTextAlignment="Start"
                                    Padding="10"/>
 
-                        </StackLayout>
-                        
-                    </Frame>
+                    </StackLayout>
 
-                    <Frame BackgroundColor="#8B0000"
+                </Frame>
+
+                <Frame BackgroundColor="#8B0000"
                            CornerRadius="20"
                            BorderColor="#FFFFFF">
 
-                        <StackLayout Spacing="0">
+                    <StackLayout Spacing="0">
 
-                            <Label Text="Valores e Atitudes:"
+                        <Label Text="Valores e Atitudes:"
                                    TextColor="#FFFFFF"
                                    FontAttributes="Bold"
                                    FontSize="25"
@@ -98,23 +96,23 @@
                                    BackgroundColor="#363636"
                                    Padding="5"/>
 
-                            <Label Text="{ Binding Valores_Atitudes }"
+                        <Label Text="{ Binding Valores_Atitudes }"
                                    TextColor="#FFFFFF"
                                    FontSize="20"
                                    HorizontalTextAlignment="Start"
                                    Padding="10"/>
 
-                        </StackLayout>
+                    </StackLayout>
 
-                    </Frame>
+                </Frame>
 
-                    <Frame BackgroundColor="#8B0000"
+                <Frame BackgroundColor="#8B0000"
                            CornerRadius="20"
                            BorderColor="#FFFFFF">
 
-                        <StackLayout Spacing="0">
+                    <StackLayout Spacing="0">
 
-                            <Label Text="Competências"
+                        <Label Text="Competências"
                                    TextColor="#FFFFFF"
                                    FontAttributes="Bold"
                                    FontSize="25"
@@ -122,23 +120,23 @@
                                    BackgroundColor="#363636"
                                    Padding="5"/>
 
-                            <Label Text="{ Binding Competencias }"
+                        <Label Text="{ Binding Competencias }"
                                    TextColor="#FFFFFF"
                                    FontSize="20"
                                    HorizontalTextAlignment="Center"
                                    Padding="10"/>
 
-                        </StackLayout>
+                    </StackLayout>
 
-                    </Frame>
+                </Frame>
 
-                    <Frame BackgroundColor="#8B0000"
+                <Frame BackgroundColor="#8B0000"
                            CornerRadius="20"
                            BorderColor="#FFFFFF">
 
-                        <StackLayout Spacing="0">
+                    <StackLayout Spacing="0">
 
-                            <Label Text="Habilidades"
+                        <Label Text="Habilidades"
                                    TextColor="#FFFFFF"
                                    FontAttributes="Bold"
                                    FontSize="25"
@@ -146,23 +144,23 @@
                                    BackgroundColor="#363636"
                                    Padding="5"/>
 
-                            <Label Text="{ Binding Habilidades }"
+                        <Label Text="{ Binding Habilidades }"
                                    TextColor="#FFFFFF"
                                    FontSize="20"
                                    HorizontalTextAlignment="Center"
                                    Padding="10"/>
 
-                        </StackLayout>
+                    </StackLayout>
 
-                    </Frame>
+                </Frame>
 
-                    <Frame BackgroundColor="#8B0000"
+                <Frame BackgroundColor="#8B0000"
                            CornerRadius="20"
                            BorderColor="#FFFFFF">
 
-                        <StackLayout Spacing="0">
+                    <StackLayout Spacing="0">
 
-                            <Label Text="Bases Tecnológicas"
+                        <Label Text="Bases Tecnológicas"
                                    TextColor="#FFFFFF"
                                    FontAttributes="Bold"
                                    FontSize="25"
@@ -170,22 +168,20 @@
                                    BackgroundColor="#363636"
                                    Padding="5"/>
 
-                            <Label Text="{ Binding Bases_Tecnologicas }"
+                        <Label Text="{ Binding Bases_Tecnologicas }"
                                    TextColor="#FFFFFF"
                                    FontSize="20"
                                    HorizontalTextAlignment="Center"
                                    Padding="10"/>
 
-                        </StackLayout>
+                    </StackLayout>
 
-                    </Frame>
+                </Frame>
 
-                </StackLayout>
+            </StackLayout>
 
-            </ScrollView>
+        </ScrollView>
 
-        </StackLayout>
-        
     </ContentPage.Content>
     
 </ContentPage>
