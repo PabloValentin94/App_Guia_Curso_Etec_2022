@@ -42,7 +42,7 @@
 
                         <StackLayout Spacing="0">
 
-                            <Label Text="Carga Horária"
+                            <Label Text="Carga Horária (horas):"
                                    TextColor="#FFFFFF"
                                    FontAttributes="Bold"
                                    FontSize="25"
@@ -112,9 +112,9 @@
                            CornerRadius="20"
                            BorderColor="#FFFFFF">
 
-                        <StackLayout Spacing="0">
+                        <StackLayout Spacing="20">
 
-                            <Label Text="Competências"
+                            <Label Text="Competências:"
                                    TextColor="#FFFFFF"
                                    FontAttributes="Bold"
                                    FontSize="25"
@@ -122,17 +122,15 @@
                                    BackgroundColor="#363636"
                                    Padding="5"/>
 
-                            <Label Text="{ Binding Competencias }"
-                                   TextColor="#FFFFFF"
-                                   FontSize="20"
-                                   HorizontalTextAlignment="Center"
-                                   Padding="10"/>
+                            <Button x:Name="btn_competencias" Text="Abrir"
+                                    Style="{ StaticResource Botao_Modulos }"
+                                    Clicked="btn_competencias_Clicked"/>
 
                         </StackLayout>
 
                     </Frame>
 
-                    <Frame BackgroundColor="#8B0000"
+                    <!--<Frame BackgroundColor="#8B0000"
                            CornerRadius="20"
                            BorderColor="#FFFFFF">
 
@@ -154,13 +152,13 @@
 
                         </StackLayout>
 
-                    </Frame>
+                    </Frame>-->
 
                     <Frame BackgroundColor="#8B0000"
                            CornerRadius="20"
                            BorderColor="#FFFFFF">
 
-                        <StackLayout Spacing="0">
+                        <StackLayout Spacing="20">
 
                             <Label Text="Bases Tecnológicas"
                                    TextColor="#FFFFFF"
@@ -170,11 +168,9 @@
                                    BackgroundColor="#363636"
                                    Padding="5"/>
 
-                            <Label Text="{ Binding Bases_Tecnologicas }"
-                                   TextColor="#FFFFFF"
-                                   FontSize="20"
-                                   HorizontalTextAlignment="Center"
-                                   Padding="10"/>
+                            <Button x:Name="btn_bases_tecnologicas" Text="Abrir"
+                                    Style="{ StaticResource Botao_Modulos }"
+                                    Clicked="btn_bases_tecnologicas_Clicked"/>
 
                         </StackLayout>
 

@@ -5,15 +5,61 @@
              Style="{ StaticResource Tema_DS }">
     
     <ContentPage.Content>
-        
-        <StackLayout>
-            
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-            
-        </StackLayout>
-        
+
+        <ScrollView>
+
+            <StackLayout Spacing="20" Padding="20" VerticalOptions="Center">
+
+                <Frame BackgroundColor="#8B0000"
+                           CornerRadius="20"
+                           BorderColor="#FFFFFF">
+
+                    <StackLayout Spacing="0">
+
+                        <Label Text="Competências:"
+                               TextColor="#FFFFFF"
+                               FontAttributes="Bold"
+                               FontSize="25"
+                               HorizontalTextAlignment="Center"
+                               BackgroundColor="#363636"
+                               Padding="5"/>
+
+                        <Label Text="{ Binding Competencias }"
+                               TextColor="#FFFFFF"
+                               FontSize="20"
+                               HorizontalTextAlignment="Start"
+                               Padding="10"/>
+
+                    </StackLayout>
+
+                </Frame>
+
+                <Frame BackgroundColor="#8B0000"
+                           CornerRadius="20"
+                           BorderColor="#FFFFFF">
+
+                    <StackLayout Spacing="20">
+
+                        <Label Text="Habilidades:"
+                               TextColor="#FFFFFF"
+                               FontAttributes="Bold"
+                               FontSize="25"
+                               HorizontalTextAlignment="Center"
+                               BackgroundColor="#363636"
+                               Padding="5"/>
+
+                        <Button x:Name="btn_habilidades" Text="Abrir"
+                                Style="{ StaticResource Botao_Modulos }"
+                                Clicked="btn_habilidades_Clicked"/>
+
+                    </StackLayout>
+
+                </Frame>
+
+            </StackLayout>
+
+        </ScrollView>
+
     </ContentPage.Content>
     
 </ContentPage>

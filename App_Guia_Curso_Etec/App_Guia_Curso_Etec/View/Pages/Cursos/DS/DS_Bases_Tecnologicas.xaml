@@ -8,7 +8,7 @@
 
         <ScrollView>
 
-            <StackLayout Spacing="20" Padding="20">
+            <StackLayout Spacing="20" Padding="20" VerticalOptions="Center">
 
                 <Frame BackgroundColor="#8B0000"
                            CornerRadius="20"
@@ -16,163 +16,19 @@
 
                     <StackLayout Spacing="0">
 
-                        <Label Text="Componente"
-                                   TextColor="#FFFFFF"
-                                   FontAttributes="Bold"
-                                   FontSize="25"
-                                   HorizontalTextAlignment="Center"
-                                   BackgroundColor="#363636"
-                                   Padding="5"/>
-
-                        <Label Text="{ Binding Nome }"
-                                   TextColor="#FFFFFF"
-                                   FontSize="20"
-                                   HorizontalTextAlignment="Center"
-                                   Padding="10"/>
-
-                    </StackLayout>
-
-                </Frame>
-
-                <Frame BackgroundColor="#8B0000"
-                           CornerRadius="20"
-                           BorderColor="#FFFFFF">
-
-                    <StackLayout Spacing="0">
-
-                        <Label Text="Carga Horária"
-                                   TextColor="#FFFFFF"
-                                   FontAttributes="Bold"
-                                   FontSize="25"
-                                   HorizontalTextAlignment="Center"
-                                   BackgroundColor="#363636"
-                                   Padding="5"/>
-
-                        <Label Text="{ Binding Carga_Horaria }"
-                                   TextColor="#FFFFFF"
-                                   FontSize="20"
-                                   HorizontalTextAlignment="Center"
-                                   Padding="10"/>
-
-                    </StackLayout>
-
-                </Frame>
-
-                <Frame BackgroundColor="#8B0000"
-                           CornerRadius="20"
-                           BorderColor="#FFFFFF">
-
-                    <StackLayout Spacing="0">
-
-                        <Label Text="Atribuições e Responsabilidades:"
-                                   TextColor="#FFFFFF"
-                                   FontAttributes="Bold"
-                                   FontSize="25"
-                                   HorizontalTextAlignment="Center"
-                                   BackgroundColor="#363636"
-                                   Padding="5"/>
-
-                        <Label Text="{ Binding Atribuicoes_Responsabilidades }"
-                                   TextColor="#FFFFFF"
-                                   FontSize="20"
-                                   HorizontalTextAlignment="Start"
-                                   Padding="10"/>
-
-                    </StackLayout>
-
-                </Frame>
-
-                <Frame BackgroundColor="#8B0000"
-                           CornerRadius="20"
-                           BorderColor="#FFFFFF">
-
-                    <StackLayout Spacing="0">
-
-                        <Label Text="Valores e Atitudes:"
-                                   TextColor="#FFFFFF"
-                                   FontAttributes="Bold"
-                                   FontSize="25"
-                                   HorizontalTextAlignment="Center"
-                                   BackgroundColor="#363636"
-                                   Padding="5"/>
-
-                        <Label Text="{ Binding Valores_Atitudes }"
-                                   TextColor="#FFFFFF"
-                                   FontSize="20"
-                                   HorizontalTextAlignment="Start"
-                                   Padding="10"/>
-
-                    </StackLayout>
-
-                </Frame>
-
-                <Frame BackgroundColor="#8B0000"
-                           CornerRadius="20"
-                           BorderColor="#FFFFFF">
-
-                    <StackLayout Spacing="0">
-
-                        <Label Text="Competências"
-                                   TextColor="#FFFFFF"
-                                   FontAttributes="Bold"
-                                   FontSize="25"
-                                   HorizontalTextAlignment="Center"
-                                   BackgroundColor="#363636"
-                                   Padding="5"/>
-
-                        <Label Text="{ Binding Competencias }"
-                                   TextColor="#FFFFFF"
-                                   FontSize="20"
-                                   HorizontalTextAlignment="Center"
-                                   Padding="10"/>
-
-                    </StackLayout>
-
-                </Frame>
-
-                <Frame BackgroundColor="#8B0000"
-                           CornerRadius="20"
-                           BorderColor="#FFFFFF">
-
-                    <StackLayout Spacing="0">
-
-                        <Label Text="Habilidades"
-                                   TextColor="#FFFFFF"
-                                   FontAttributes="Bold"
-                                   FontSize="25"
-                                   HorizontalTextAlignment="Center"
-                                   BackgroundColor="#363636"
-                                   Padding="5"/>
-
-                        <Label Text="{ Binding Habilidades }"
-                                   TextColor="#FFFFFF"
-                                   FontSize="20"
-                                   HorizontalTextAlignment="Center"
-                                   Padding="10"/>
-
-                    </StackLayout>
-
-                </Frame>
-
-                <Frame BackgroundColor="#8B0000"
-                           CornerRadius="20"
-                           BorderColor="#FFFFFF">
-
-                    <StackLayout Spacing="0">
-
-                        <Label Text="Bases Tecnológicas"
-                                   TextColor="#FFFFFF"
-                                   FontAttributes="Bold"
-                                   FontSize="25"
-                                   HorizontalTextAlignment="Center"
-                                   BackgroundColor="#363636"
-                                   Padding="5"/>
+                        <Label Text="Bases Tecnológicas:"
+                               TextColor="#FFFFFF"
+                               FontAttributes="Bold"
+                               FontSize="25"
+                               HorizontalTextAlignment="Center"
+                               BackgroundColor="#363636"
+                               Padding="5"/>
 
                         <Label Text="{ Binding Bases_Tecnologicas }"
-                                   TextColor="#FFFFFF"
-                                   FontSize="20"
-                                   HorizontalTextAlignment="Center"
-                                   Padding="10"/>
+                               TextColor="#FFFFFF"
+                               FontSize="20"
+                               HorizontalTextAlignment="Start"
+                               Padding="10"/>
 
                     </StackLayout>
 

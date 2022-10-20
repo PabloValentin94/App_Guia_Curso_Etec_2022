@@ -10,7 +10,7 @@ namespace App_Guia_Curso_Etec.Model
 
         public string Nome { get; set; }
 
-        public int Carga_Horaria { get; set; }
+        public string Atribuicoes_Empreendedoras { get; set; }
 
         public string Atribuicoes_Responsabilidades { get; set; }
 
@@ -21,6 +21,8 @@ namespace App_Guia_Curso_Etec.Model
         public string Habilidades { get; set; }
 
         public string Bases_Tecnologicas { get; set; }
+
+        public int Carga_Horaria { get; set; }
 
     }
 

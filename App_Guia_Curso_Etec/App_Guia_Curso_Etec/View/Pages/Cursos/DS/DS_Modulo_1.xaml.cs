@@ -35,11 +35,26 @@ namespace App_Guia_Curso_Etec.View.Pages.Cursos.DS
 
                     Nome = "Análise e Projeto de Sistemas",
 
+                    Carga_Horaria = 80,
+
+                    Atribuicoes_Empreendedoras = "",
+
                     Atribuicoes_Responsabilidades = "- Elaborar projetos de sistema de informação.",
 
                     Valores_Atitudes = "- Incentivar a criatividade;\n\n" +
                                        "- Estimular a organização;\n\n" +
-                                       "- Fortalecer a persistência e o interesse na resolução de situações - problema."
+                                       "- Fortalecer a persistência e o interesse na resolução de situações - problema.",
+
+                    Competencias = "1 - Modelar projetos de sistemas;\n\n" +
+                                   "2 - Selecionar modelos para o desenvolvimento de sistemas.",
+
+                    Habilidades = "1.1 - Coletar requisitos de usuários e sistemas;\n\n" +
+                                  "1.2 - Utlizar métodos de abordagem e coleta de dados e " +
+                                  "procedimentos de pesquisa.\n\n" +
+                                  "2.1 - Aplicar modelo Cascata no desenvolvimento de sistemas;\n\n" +
+                                  "2.2 - Aplicar modelos ágeis e projetos de software.",
+
+                    Bases_Tecnologicas = "O conteúdo será colocado aqui."
 
                 };
 
