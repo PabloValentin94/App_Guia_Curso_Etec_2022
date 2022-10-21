@@ -2,7 +2,6 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App_Guia_Curso_Etec.View.Pages.Cursos.DS.DS_Componente"
-             Title="{ Binding Nome }"
              Style="{ StaticResource Tema_DS }">
     
     <ContentPage.Content>
