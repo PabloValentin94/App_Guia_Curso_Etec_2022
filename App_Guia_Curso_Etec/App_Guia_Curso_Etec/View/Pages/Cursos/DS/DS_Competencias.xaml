@@ -6,59 +6,63 @@
     
     <ContentPage.Content>
 
-        <ScrollView>
+        <StackLayout VerticalOptions="Center">
 
-            <StackLayout Spacing="20" Padding="20" VerticalOptions="Center">
+            <ScrollView>
 
-                <Frame BackgroundColor="#8B0000"
+                <StackLayout Spacing="20" Padding="20">
+
+                    <Frame BackgroundColor="#8B0000"
                            CornerRadius="20"
                            BorderColor="#FFFFFF">
 
-                    <StackLayout Spacing="0">
+                        <StackLayout Spacing="0">
 
-                        <Label Text="Competências:"
-                               TextColor="#FFFFFF"
-                               FontAttributes="Bold"
-                               FontSize="25"
-                               HorizontalTextAlignment="Center"
-                               BackgroundColor="#363636"
-                               Padding="5"/>
+                            <Label Text="Competências:"
+                                   TextColor="#FFFFFF"
+                                   FontAttributes="Bold"
+                                   FontSize="25"
+                                   HorizontalTextAlignment="Center"
+                                   BackgroundColor="#363636"
+                                   Padding="5"/>
 
-                        <Label Text="{ Binding Competencias }"
-                               TextColor="#FFFFFF"
-                               FontSize="20"
-                               HorizontalTextAlignment="Start"
-                               Padding="10"/>
+                            <Label Text="{ Binding Competencias }"
+                                   TextColor="#FFFFFF"
+                                   FontSize="20"
+                                   HorizontalTextAlignment="Start"
+                                   Padding="10"/>
 
-                    </StackLayout>
+                        </StackLayout>
 
-                </Frame>
+                    </Frame>
 
-                <Frame BackgroundColor="#8B0000"
+                    <Frame BackgroundColor="#8B0000"
                            CornerRadius="20"
                            BorderColor="#FFFFFF">
 
-                    <StackLayout Spacing="20">
+                        <StackLayout Spacing="20">
 
-                        <Label Text="Habilidades:"
-                               TextColor="#FFFFFF"
-                               FontAttributes="Bold"
-                               FontSize="25"
-                               HorizontalTextAlignment="Center"
-                               BackgroundColor="#363636"
-                               Padding="5"/>
+                            <Label Text="Habilidades:"
+                                   TextColor="#FFFFFF"
+                                   FontAttributes="Bold"
+                                   FontSize="25"
+                                   HorizontalTextAlignment="Center"
+                                   BackgroundColor="#363636"
+                                   Padding="5"/>
 
-                        <Button x:Name="btn_habilidades" Text="Abrir"
-                                Style="{ StaticResource Botao_Modulos }"
-                                Clicked="btn_habilidades_Clicked"/>
+                            <Button x:Name="btn_habilidades" Text="Ver"
+                                    Style="{ StaticResource Botao_Modulos }"
+                                    Clicked="btn_habilidades_Clicked"/>
 
-                    </StackLayout>
+                        </StackLayout>
 
-                </Frame>
+                    </Frame>
 
-            </StackLayout>
+                </StackLayout>
 
-        </ScrollView>
+            </ScrollView>
+
+        </StackLayout>
 
     </ContentPage.Content>
     

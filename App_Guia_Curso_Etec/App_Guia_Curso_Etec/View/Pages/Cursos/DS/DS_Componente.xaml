@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App_Guia_Curso_Etec.View.Pages.Cursos.DS.DS_Componente"
+             Title="{ Binding Nome }"
              Style="{ StaticResource Tema_DS }">
     
     <ContentPage.Content>
@@ -90,6 +91,30 @@
 
                         <StackLayout Spacing="0">
 
+                            <Label Text="Atribuições Empreendedoras:"
+                                   TextColor="#FFFFFF"
+                                   FontAttributes="Bold"
+                                   FontSize="25"
+                                   HorizontalTextAlignment="Center"
+                                   BackgroundColor="#363636"
+                                   Padding="5"/>
+
+                            <Label Text="{ Binding Atribuicoes_Empreendedoras }"
+                                   TextColor="#FFFFFF"
+                                   FontSize="20"
+                                   HorizontalTextAlignment="Start"
+                                   Padding="10"/>
+
+                        </StackLayout>
+
+                    </Frame>
+
+                    <Frame BackgroundColor="#8B0000"
+                           CornerRadius="20"
+                           BorderColor="#FFFFFF">
+
+                        <StackLayout Spacing="0">
+
                             <Label Text="Valores e Atitudes:"
                                    TextColor="#FFFFFF"
                                    FontAttributes="Bold"
@@ -122,7 +147,7 @@
                                    BackgroundColor="#363636"
                                    Padding="5"/>
 
-                            <Button x:Name="btn_competencias" Text="Abrir"
+                            <Button x:Name="btn_competencias" Text="Ver"
                                     Style="{ StaticResource Botao_Modulos }"
                                     Clicked="btn_competencias_Clicked"/>
 
@@ -130,37 +155,13 @@
 
                     </Frame>
 
-                    <!--<Frame BackgroundColor="#8B0000"
-                           CornerRadius="20"
-                           BorderColor="#FFFFFF">
-
-                        <StackLayout Spacing="0">
-
-                            <Label Text="Habilidades"
-                                   TextColor="#FFFFFF"
-                                   FontAttributes="Bold"
-                                   FontSize="25"
-                                   HorizontalTextAlignment="Center"
-                                   BackgroundColor="#363636"
-                                   Padding="5"/>
-
-                            <Label Text="{ Binding Habilidades }"
-                                   TextColor="#FFFFFF"
-                                   FontSize="20"
-                                   HorizontalTextAlignment="Center"
-                                   Padding="10"/>
-
-                        </StackLayout>
-
-                    </Frame>-->
-
                     <Frame BackgroundColor="#8B0000"
                            CornerRadius="20"
                            BorderColor="#FFFFFF">
 
                         <StackLayout Spacing="20">
 
-                            <Label Text="Bases Tecnológicas"
+                            <Label Text="Bases Tecnológicas:"
                                    TextColor="#FFFFFF"
                                    FontAttributes="Bold"
                                    FontSize="25"
@@ -168,7 +169,7 @@
                                    BackgroundColor="#363636"
                                    Padding="5"/>
 
-                            <Button x:Name="btn_bases_tecnologicas" Text="Abrir"
+                            <Button x:Name="btn_bases_tecnologicas" Text="Ver"
                                     Style="{ StaticResource Botao_Modulos }"
                                     Clicked="btn_bases_tecnologicas_Clicked"/>
 
