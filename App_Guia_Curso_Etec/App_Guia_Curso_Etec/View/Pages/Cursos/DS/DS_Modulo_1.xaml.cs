@@ -244,7 +244,7 @@ namespace App_Guia_Curso_Etec.View.Pages.Cursos.DS
                     Competencias = "1 - Desenvolver páginas para a Internet.",
 
                     Habilidades = "1.1 - Contruir páginas para a Internet, utilizando linguagem de marcação de texto;\n\n" +
-                                  "1.2 - Utlizar linguagem de script para a Web\n\n" +
+                                  "1.2 - Utlizar linguagem de script para a Web;\n\n" +
                                   "1.3 - Aplicar formatação através de folhas de estilo.\n\n",
 
                     Bases_Tecnologicas = "- O conteúdo será colocado aqui."
@@ -298,7 +298,7 @@ namespace App_Guia_Curso_Etec.View.Pages.Cursos.DS
                                    "2 - Desenvolver sistemas, aplicando princípios e paradigmas de programação.",
 
                     Habilidades = "1.1 - Elaborar algoritmos.\n\n" +
-                                  "2.1 - Codificar programas, utilizando técnicas de programação estruturada\n\n" +
+                                  "2.1 - Codificar programas, utilizando técnicas de programação estruturada;\n\n" +
                                   "2.2 - Depurar e versionar programas, utilizando ambiente de desenvolvimento integrado.",
 
                     Bases_Tecnologicas = "- O conteúdo será colocado aqui."
