@@ -154,7 +154,7 @@
 
                     </Frame>
 
-                    <Frame BackgroundColor="#8B0000"
+                    <!--<Frame BackgroundColor="#8B0000"
                            CornerRadius="20"
                            BorderColor="#FFFFFF">
 
@@ -174,7 +174,7 @@
 
                         </StackLayout>
 
-                    </Frame>
+                    </Frame>-->
 
                 </StackLayout>
 

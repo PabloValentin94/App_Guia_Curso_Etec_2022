@@ -104,7 +104,7 @@ namespace App_Guia_Curso_Etec.View.Pages.Cursos.DS
                                        "- Incentivar comportamentos éticos;\n\n" +
                                        "- Responsabilizar-se pela produção, utilização e divulgação de informações.",
 
-                    Competencias = "1º Semestre:\n\n" +
+                    Competencias = "➡ 1º Semestre:\n\n" +
 
                                    "1 - Analisar dados e informações obtidas de pesquisas empíricas e bibliográficas;\n\n" +
                                    "2 - Propor soluções parametrizadas por viabilidade técnica e econômica aos " +
@@ -113,7 +113,7 @@ namespace App_Guia_Curso_Etec.View.Pages.Cursos.DS
                                    "para gestão ambiental e Segurança do Trabalho;\n\n" +
                                    "4 - Construir projeto de software.\n\n" +
                                    
-                                   "2º Semestre:\n\n" +
+                                   "➡ 2º Semestre:\n\n" +
 
                                    "1 - Planejar as fases de execução de projetos com base na natureza e na complexidade " +
                                    "das atividades;\n\n" +
@@ -123,7 +123,7 @@ namespace App_Guia_Curso_Etec.View.Pages.Cursos.DS
                                    "startups de tecnologia;\n\n" +
                                    "5 - Documentar sistemas de informação.",
 
-                    Habilidades = "1º Semestre:\n\n" +
+                    Habilidades = "➡ 1º Semestre:\n\n" +
 
                                   "1.1 - Identificar demandas e situações-problema no âmbito da área profissional;\n\n" +
                                   "1.2 - Identificar fontes de pesquisa sobre o objeto em estudo;\n\n" +
@@ -137,7 +137,7 @@ namespace App_Guia_Curso_Etec.View.Pages.Cursos.DS
                                   "4.1 - Elaborar modelo de negócio para uma empresa de software;\n\n" +
                                   "4.2 - Articular conhecimentos de empreendedorismo na construção de projetos de software.\n\n" +
 
-                                  "2º Semestre:\n\n" +
+                                  "➡ 2º Semestre:\n\n" +
 
                                   "1.1 - Consultar diversas fontes de pesquisa: catálogos, manuais de fabricantes, " +
                                   "glossários técnicos, entre outros;\n\n" +

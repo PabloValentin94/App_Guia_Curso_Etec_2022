@@ -43,7 +43,7 @@
                         <ImageButton x:Name="imgbtn_hallowtec" VerticalOptions="FillAndExpand"
                                      Aspect="Fill" Clicked="imgbtn_hallowtec_Clicked"/>
 
-                        <Label Text="Clique na imagem para mais informações."
+                        <Label Text="Clique na imagem para obter mais informações."
                                HorizontalTextAlignment="Center"
                                Style="{ StaticResource Texto_Destacado}"/>
 
