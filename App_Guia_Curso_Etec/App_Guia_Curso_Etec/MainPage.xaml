@@ -78,7 +78,7 @@
 
                             </StackLayout>
 
-                            <StackLayout x:Name="ADM" Padding="10" Spacing="15" HorizontalOptions="FillAndExpand">
+                            <!--<StackLayout x:Name="ADM" Padding="10" Spacing="15" HorizontalOptions="FillAndExpand">
 
                                 <Label Text="Administração:" FontSize="Medium"
                                        TextColor="#FFFFFF" FontAttributes="Bold"/>
@@ -142,7 +142,7 @@
                                         Style="{ StaticResource Botao }"
                                         Clicked="btn_edif_3_Clicked"/>
 
-                            </StackLayout>
+                            </StackLayout>-->
 
                         </StackLayout>
 
