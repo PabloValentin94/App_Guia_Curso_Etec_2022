@@ -169,6 +169,13 @@ namespace App_Guia_Curso_Etec.View.Pages
 
                 await DisplayAlert("Erro!", ex.Message, "OK");
 
+                if (await DisplayAlert("Aviso!", "Não foi possível abrir o WhatsApp. Deseja fazer uma ligação ao invés disso?", "Sim", "Cancelar"))
+                {
+
+                    await Launcher.OpenAsync("tel:1436223566");
+
+                }
+
             }
 
         }
