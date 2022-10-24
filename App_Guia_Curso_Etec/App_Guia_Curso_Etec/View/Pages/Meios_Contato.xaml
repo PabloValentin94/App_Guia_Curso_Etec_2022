@@ -33,7 +33,7 @@
                             <RowDefinition Height="*"/>
                             <RowDefinition Height="*"/>
                             <RowDefinition Height="*"/>
-                            <!--<RowDefinition Height="*"/>-->
+                            <RowDefinition Height="*"/>
 
                         </Grid.RowDefinitions>
 
@@ -153,14 +153,28 @@
 
                         </StackLayout>
 
-                        <!--<ImageButton x:Name="imgbtn_whatsapp" Aspect="AspectFill"
-                                     Grid.Column="0" Grid.Row="0"
+                        <ImageButton x:Name="imgbtn_whatsapp" Aspect="AspectFill"
+                                     Grid.Column="0" Grid.Row="5"
                                      Clicked="imgbtn_whatsapp_Clicked"/>
 
-                        <Label x:Name="lbl_whatsapp"
-                               VerticalTextAlignment="Center"
-                               Grid.Column="1" Grid.Row="0"
-                               Style="{ StaticResource Texto }"/>-->
+                        <StackLayout VerticalOptions="Center" Grid.Column="1" Grid.Row="5">
+
+                            <Label Style="{ StaticResource Texto }">
+
+                                <Label.FormattedText>
+
+                                    <FormattedString>
+
+                                        <Span Text="WhatsApp: " Style="{ StaticResource Texto_Destacado }"/>
+                                        <Span Text="+55 (14) 99679-4615"/>
+
+                                    </FormattedString>
+
+                                </Label.FormattedText>
+
+                            </Label>
+
+                        </StackLayout>
 
                     </Grid>
 

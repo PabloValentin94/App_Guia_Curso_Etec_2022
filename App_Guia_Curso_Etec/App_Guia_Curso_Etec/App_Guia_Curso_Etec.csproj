@@ -15,6 +15,7 @@
     <None Remove="View\Images\hallowtec.png" />
     <None Remove="View\Images\Icons\email_icon.jpg" />
     <None Remove="View\Images\Icons\phone_icon.jpg" />
+    <None Remove="View\Images\Icons\whatsapp_icon.png" />
     <None Remove="View\Images\instagram_icon.png" />
     <None Remove="View\Images\logo.png" />
     <None Remove="View\Images\site_icon.png" />
@@ -34,6 +35,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="View\Images\Icons\phone_icon.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Images\Icons\whatsapp_icon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="View\Images\logo.png">

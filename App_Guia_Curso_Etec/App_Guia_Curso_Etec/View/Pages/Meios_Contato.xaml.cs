@@ -9,6 +9,8 @@ using Xamarin.Forms.Xaml;
 
 using Xamarin.Essentials;
 
+using Xamarin.Forms.OpenWhatsApp;
+
 namespace App_Guia_Curso_Etec.View.Pages
 {
 
@@ -56,6 +58,8 @@ namespace App_Guia_Curso_Etec.View.Pages
             /*lbl_email.Text = "e070dir@cps.sp.gov.br\n\n" +
                              "e070adm@cps.sp.gov.br\n\n" +
                              "e070acad@cps.sp.gov.br";*/
+
+            imgbtn_whatsapp.Source = ImageSource.FromResource("App_Guia_Curso_Etec.View.Images.Icons.whatsapp_icon.png");
 
         }
 
@@ -150,12 +154,24 @@ namespace App_Guia_Curso_Etec.View.Pages
 
         }
 
-        /*private void imgbtn_whatsapp_Clicked(object sender, EventArgs e)
+        private async void imgbtn_whatsapp_Clicked(object sender, EventArgs e)
         {
 
+            try
+            {
 
+                Chat.Open("+5514996794615", "Olá! Desejo saber mais sobre o curso de Desenvolvimento de Sistemas.");
 
-        }*/
+            }
+
+            catch(Exception ex)
+            {
+
+                await DisplayAlert("Erro!", ex.Message, "OK");
+
+            }
+
+        }
 
         private async void imgbtn_telefone_Clicked(object sender, EventArgs e)
         {
