@@ -28,7 +28,7 @@
                     <Frame Grid.Row="0" CornerRadius="15" Margin="10" BackgroundColor="#FFFFFF"
                            BorderColor="Accent" HorizontalOptions="FillAndExpand">
 
-                        <Image x:Name="img_logo" Aspect="AspectFill" VerticalOptions="FillAndExpand"
+                        <Image x:Name="img_logo" Aspect="AspectFit" VerticalOptions="FillAndExpand"
                                Margin="0,15,0,0"/>
                         
                     </Frame>
