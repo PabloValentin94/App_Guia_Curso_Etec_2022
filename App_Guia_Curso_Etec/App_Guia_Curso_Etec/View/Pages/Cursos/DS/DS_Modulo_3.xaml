@@ -22,8 +22,7 @@
                             Clicked="btn_sis_inf_Clicked"/>
 
                     <Button x:Name="btn_pla_des_tcc_ds"
-                            Text="Planejamento e Desenvolvimento do Trabalho de Conclusão de Curso (T.C.C.) 
-                            em Desenvolvimento de Sistemas"
+                            Text="Planejamento e Desenvolvimento do Trabalho de Conclusão de Curso (T.C.C.) em Desenvolvimento de Sistemas"
                             Style="{ StaticResource Botao_Modulos }"
                             Clicked="btn_pla_des_tcc_ds_Clicked"/>
 
